@@ -1,15 +1,23 @@
-# VOrbit ASMR Documentation
+# VOrbit ASMR 操作ガイド
 
-Public user documentation for VOrbit ASMR.
+VOrbit ASMRの一般公開ユーザーガイドです。
 
-This directory is intentionally independent from the private application source. It can be moved to the public `VOrbit-ASMR-Docs` repository without exposing application code.
+公開サイト: https://feathvr.github.io/VOrbit-ASMR-Docs/
 
-## Planned sections
+## 内容
 
-- Getting started
-- Tutorials
-- Settings reference
-- Troubleshooting
+- 初回セットアップ
+- トラッキング接続
+- キャリブレーション
+- 空間音響の設定
+- トラブルシューティング
 - FAQ
-- Release history
 
+## ローカルで確認する
+
+```sh
+npm ci
+npm start
+```
+
+`main`ブランチへのpush時に、GitHub Pagesへ自動公開されます。
