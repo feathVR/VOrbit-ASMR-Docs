@@ -25,5 +25,4 @@ The sound source should move around the listener as the horizontal tracking valu
 
 ## If there is no sound
 
-Check [Common issues](../troubleshooting/common-issues.md), especially the selected audio device, mute state, and tracking connection.
-
+Check [Common issues](../troubleshooting/common-issues), especially the selected audio device, mute state, and tracking connection.
