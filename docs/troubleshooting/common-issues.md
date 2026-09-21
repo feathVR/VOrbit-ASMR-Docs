@@ -2,23 +2,29 @@
 sidebar_position: 1
 ---
 
-# Common issues
+# よくある問題
 
-## The source does not move
+## 音源が動かない
 
-- Confirm that the tracking source is connected.
-- Confirm that a parameter is assigned to the horizontal axis.
-- Check that calibration has completed for the assigned axis.
-- Move the avatar farther from the neutral pose to test the range.
+- トラッキングソースが接続済みになっているか確認します。
+- 横方向の軸にパラメーターが割り当てられているか確認します。
+- 割り当てた軸のキャリブレーションが完了しているか確認します。
+- 基準位置から少し大きめに動かし、値が変化するか確認します。
 
-## The sound is present but the position feels wrong
+## 音は出るが位置が不自然
 
-- Recalibrate from the avatar's actual neutral pose.
-- Check axis inversion and smoothing.
-- Confirm that the intended orbit or Cartesian mapping mode is selected.
-- Check the horizontal angle, vertical angle, and distance ranges.
+- アバターの実際の正面姿勢で再キャリブレーションします。
+- 軸の反転とスムージング設定を確認します。
+- 「頭の周囲を回る配置」と「平面上の配置」が意図どおりか確認します。
+- 水平方向の角度、上下方向の角度、距離の設定範囲を確認します。
 
-## Another local VMC application stopped receiving data
+## 同じPCの別アプリでVMCを受信できなくなった
 
-Enable localhost forwarding when the VMC source is configured to share its UDP stream with another local consumer.
+VMCのUDPデータを別のローカルアプリでも使用する場合は、VOrbit ASMRのlocalhost転送を有効にしてください。
 
+## 音が出ない
+
+- 入力・出力デバイスが意図した機器になっているか確認します。
+- アプリとWindows側のミュート、音量を確認します。
+- ほかのアプリが音声デバイスを排他的に使用していないか確認します。
+- 音声ルートを変更した直後は、選択したルートに対応する出力先を確認します。

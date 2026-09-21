@@ -5,26 +5,26 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'Getting started',
+      label: 'はじめに',
       items: ['getting-started/first-sound'],
     },
     {
       type: 'category',
-      label: 'Tracking',
+      label: 'トラッキング',
       items: ['tracking/overview', 'tracking/calibration'],
     },
     {
       type: 'category',
-      label: 'Spatial audio',
+      label: '空間音響',
       items: ['spatial/overview'],
     },
     {
       type: 'category',
-      label: 'Troubleshooting',
+      label: '困ったとき',
       items: ['troubleshooting/common-issues'],
     },
+    'faq',
   ],
 };
 
 export default sidebars;
-

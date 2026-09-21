@@ -2,27 +2,31 @@
 sidebar_position: 1
 ---
 
-# Install and make your first sound
+# 最初の音を出す
 
-This guide walks through the shortest path from installation to a working spatial voice source.
+インストール後、声が空間音響として聞こえるところまでを設定します。最初は横方向の動きだけを使用すると、接続状態を確認しやすくなります。
 
-## Before you begin
+## 用意するもの
 
-- Connect the audio output device you plan to use.
-- Start the avatar or tracking application you want to connect.
-- Keep the avatar facing its calibrated front direction.
+- 使用するマイクとヘッドホンまたはイヤホン
+- 対応するアバター・トラッキングアプリ
+- 正面を向いた状態のアバター
 
-## Basic setup
+:::warning
+空間音響の位置を正しく確認するため、スピーカーではなくヘッドホンまたはイヤホンの使用を推奨します。
+:::
 
-1. Install and start VOrbit ASMR.
-2. Select an audio input and output device.
-3. Select a tracking source.
-4. Choose the tracking parameter for the horizontal axis.
-5. Place the avatar in its neutral position and complete calibration.
-6. Speak into the input and move the avatar slowly from side to side.
+## 基本設定
 
-The sound source should move around the listener as the horizontal tracking value changes.
+1. VOrbit ASMRを起動します。
+2. 使用する音声入力と音声出力を選びます。
+3. トラッキングソースを選び、接続します。
+4. 横方向（X軸）に使用するパラメーターを選びます。
+5. アバターを正面の基準位置に置き、キャリブレーションします。
+6. マイクに話しながら、アバターをゆっくり左右へ動かします。
 
-## If there is no sound
+横方向の値に合わせて、声が頭の周囲を弧を描くように移動すれば、基本設定は完了です。
 
-Check [Common issues](../troubleshooting/common-issues), especially the selected audio device, mute state, and tracking connection.
+## うまくいかない場合
+
+[よくある問題](../troubleshooting/common-issues)で、音声デバイス、ミュート状態、トラッキング接続を確認してください。

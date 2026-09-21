@@ -1,11 +1,44 @@
 :root {
-  --ifm-color-primary: #5c7cfa;
-  --ifm-color-primary-dark: #4263eb;
-  --ifm-color-primary-darker: #3b5bdb;
-  --ifm-color-primary-light: #748ffc;
-  --ifm-color-primary-lighter: #91a7ff;
+  --ifm-color-primary: #4263eb;
+  --ifm-color-primary-dark: #3451c6;
+  --ifm-color-primary-darker: #2f49b3;
+  --ifm-color-primary-light: #5c7cfa;
+  --ifm-color-primary-lighter: #748ffc;
   --ifm-code-font-size: 95%;
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 1.75;
+  --ifm-navbar-height: 4rem;
 }
 
-body { letter-spacing: 0.01em; }
+html[data-theme='dark'] {
+  --ifm-color-primary: #91a7ff;
+  --ifm-color-primary-dark: #748ffc;
+  --ifm-color-primary-darker: #5c7cfa;
+  --ifm-color-primary-light: #bac8ff;
+  --ifm-background-color: #10162a;
+  --ifm-background-surface-color: #18213a;
+}
 
+body {
+  letter-spacing: 0.01em;
+}
+
+.markdown h1 {
+  letter-spacing: -0.025em;
+}
+
+.markdown table {
+  display: table;
+  width: 100%;
+}
+
+.navbar__title {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 700px) {
+  :root {
+    --ifm-font-size-base: 16px;
+  }
+}

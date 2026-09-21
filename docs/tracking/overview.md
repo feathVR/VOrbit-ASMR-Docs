@@ -2,21 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tracking sources
+# トラッキングソース
 
-VOrbit ASMR accepts motion from several tracking sources. The source-specific parameter list is discovered when the connection is established.
+VOrbit ASMRは複数のトラッキング方式に対応しています。接続後、各アプリから利用可能なパラメーターを取得し、X・Y・Z軸へ個別に割り当てられます。
 
-## Supported sources
+## 対応ソース
 
-| Source | Connection | Typical first axis |
+| ソース | 接続方式 | 最初に試すX軸 |
 | --- | --- | --- |
 | VTube Studio | PC API WebSocket | `FacePositionX` |
 | VMC | OSC/UDP | `Root.PosX` |
 | nizima LIVE | Plugin WebSocket | `Cubism.ParamAngleX` |
 
-The first axis is only a starting point. You can assign different parameters to the horizontal, vertical, and distance axes when the source provides them.
+表のパラメーターは、最初の接続確認に適した初期候補です。ソースが提供する値に応じて、上下方向や距離にも別のパラメーターを割り当てられます。`—`を選んだ軸は使用されません。
 
-## Recommended first setup
+## 最初におすすめする設定
 
-Start with the horizontal axis only. Add vertical and distance axes after the basic connection and calibration work correctly.
-
+まずX軸だけを割り当て、左右の動きを確認してください。接続とキャリブレーションが正しく動作してから、必要に応じてY軸やZ軸を追加すると、問題の切り分けが簡単です。

@@ -2,19 +2,18 @@
 sidebar_position: 2
 ---
 
-# Calibration
+# キャリブレーション
 
-Calibration tells VOrbit ASMR how to interpret the raw values supplied by a tracking source.
+キャリブレーションは、トラッキングアプリが送る値を、VOrbit ASMR内の移動量として解釈するための設定です。
 
-Place the avatar in its neutral pose before calibrating. Each selected axis is calibrated independently, and an unassigned axis remains at zero.
+キャリブレーション前に、アバターを正面の自然な姿勢に置いてください。選択した軸はそれぞれ個別に調整され、未割り当ての軸は常に中央として扱われます。
 
-## Recommended order
+## おすすめの手順
 
-1. Assign the horizontal parameter.
-2. Put the avatar in the neutral pose.
-3. Complete horizontal calibration.
-4. Test the movement range.
-5. Add and calibrate vertical or distance parameters only if needed.
+1. 横方向に使用するパラメーターを割り当てます。
+2. アバターを正面の基準姿勢に戻します。
+3. 横方向のキャリブレーションを完了します。
+4. 左右へ動き、想定した範囲で音が移動するか確認します。
+5. 必要な場合だけ、上下方向や距離の軸を追加して調整します。
 
-Calibration is associated with the source and the selected parameter name. A calibration for one parameter is not reused for another parameter with a similar meaning.
-
+キャリブレーションは、トラッキングソースと選択したパラメーター名の組み合わせごとに保存されます。パラメーターを変更した場合は、新しい組み合わせとして調整してください。

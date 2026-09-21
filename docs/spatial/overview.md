@@ -2,19 +2,18 @@
 sidebar_position: 1
 ---
 
-# Spatial mapping
+# 音源の動き方
 
-VOrbit ASMR can place the source on a sphere around the listener or use a Cartesian offset.
+VOrbit ASMRでは、音源をリスナーの周囲に回り込ませる方式と、平面上で移動させる方式を選べます。
 
-## Orbit mapping
+## 頭の周囲を回る配置
 
-Orbit mapping is the recommended default for avatar movement. Horizontal and vertical tracking values become angles around the listener, while the distance axis changes the sphere radius.
+通常はこちらを使用します。横方向と上下方向の値はリスナーを中心とした角度になり、距離の値は音源までの半径を変化させます。
 
-This makes horizontal movement audible as an arc around the head instead of simply sliding a source across a flat plane.
+横方向へ動くと、声が平面上を横切るのではなく、頭の周囲を弧を描いて移動します。2Dアバターの左右移動を自然に聞かせたい場合に適しています。
 
-## Cartesian mapping
+## 平面上の配置
 
-Cartesian mapping uses horizontal and vertical values as physical metre offsets. Distance changes the source depth according to the configured range.
+横方向と上下方向の値を、メートル単位の位置へ直接割り当てます。距離方向も設定範囲に応じて前後へ移動します。
 
-Use this mode when you need direct positional movement rather than an orbit.
-
+音源を回転させず、位置を直接移動させたい場合に使用します。

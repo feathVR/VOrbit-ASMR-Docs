@@ -1,24 +1,26 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# VOrbit ASMR
+# VOrbit ASMR 操作ガイド
 
-VOrbit ASMR is a virtual dummy-head microphone for 2D avatars. It follows avatar or tracker movement and places a voice source around the listener, so movement can be heard as a binaural spatial effect.
+VOrbit ASMRは、2Dアバターの動きに合わせて声の位置を変える、Windows向けのバーチャル・ダミーヘッドマイクです。アバターやトラッカーの動きを受け取り、リスナーの周囲に音源を配置することで、声の移動をバイノーラル音響として表現します。
 
-This documentation explains installation, first-time setup, tracking connections, calibration, spatial mapping, audio output, and troubleshooting.
+このサイトでは、導入、初回設定、トラッキング接続、キャリブレーション、空間マッピング、音声出力、トラブル対処を説明します。購入前に、必要な環境や設定の流れを確認する用途にも利用できます。
 
-## Start here
+## 目的から選ぶ
 
-- [Install and make your first sound](getting-started/first-sound)
-- [Choose a tracking source](tracking/overview)
-- [Calibrate tracking axes](tracking/calibration)
-- [Understand spatial mapping](spatial/overview)
+- [最初の音を出す](getting-started/first-sound) — 導入後の基本的な設定手順
+- [トラッキング方法を選ぶ](tracking/overview) — VTube Studio、VMC、nizima LIVEとの接続
+- [動きをキャリブレーションする](tracking/calibration) — 基準位置と可動範囲の設定
+- [音源の動き方を理解する](spatial/overview) — 頭の周囲を回る配置と平面配置
+- [問題を解決する](troubleshooting/common-issues) — 音が出ない、動かない、位置が合わない場合
 
-## Find a specific setting
+## このガイドの読み方
 
-Use the sidebar to browse the settings reference. If something does not work, start with [Troubleshooting](troubleshooting/common-issues).
+初めて使用する場合は「最初の音を出す」から順に進めてください。特定の設定を調べる場合は、左側のメニューから該当する項目を選べます。
 
 :::info
-The application is distributed separately from this documentation. The documentation is public so that you can evaluate the setup and operation before purchasing or installing the application.
+VOrbit ASMR本体は、このドキュメントとは別に配布されます。この操作ガイドは、購入・導入前にも設定内容や利用方法を確認できるよう一般公開しています。
 :::
