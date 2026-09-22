@@ -44,6 +44,7 @@ const config: Config = {
         {to: '/', label: '操作ガイド', position: 'left'},
         {to: '/troubleshooting/common-issues', label: '困ったとき', position: 'left'},
         {type: 'localeDropdown', position: 'right'},
+        {href: 'https://store.steampowered.com/app/5173840/', label: 'Steam', position: 'right'},
         {href: 'https://github.com/feathVR/VOrbit-ASMR-Docs', label: 'GitHub', position: 'right'},
       ],
     },
@@ -61,6 +62,7 @@ const config: Config = {
         {
           title: 'このサイトについて',
           items: [
+            {label: 'Steam', href: 'https://store.steampowered.com/app/5173840/'},
             {label: 'GitHub', href: 'https://github.com/feathVR/VOrbit-ASMR-Docs'},
           ],
         },

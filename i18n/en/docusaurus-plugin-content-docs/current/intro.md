@@ -9,6 +9,16 @@ VOrbit ASMR is a virtual dummy-head microphone for Windows that moves the appare
 
 This guide covers installation, first-time setup, tracking connections, calibration, spatial mapping, audio output, and troubleshooting. It is also intended to help you check the required environment and workflow before purchase.
 
+<div className="steam-cta">
+  <div>
+    <strong>Coming to Steam</strong>
+    <p>Visit the Steam store page for product information and add VOrbit ASMR to your wishlist.</p>
+  </div>
+  <a className="button button--primary button--lg" href="https://store.steampowered.com/app/5173840/">
+    View on Steam
+  </a>
+</div>
+
 ## Choose a goal
 
 - [Make your first sound](getting-started/first-sound) — basic setup after installation

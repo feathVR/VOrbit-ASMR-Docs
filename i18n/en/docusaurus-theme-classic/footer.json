@@ -23,6 +23,10 @@
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/feathVR/VOrbit-ASMR-Docs"
   },
+  "link.item.label.Steam": {
+    "message": "Steam",
+    "description": "The label of footer link with label=Steam linking to the VOrbit ASMR Steam store page"
+  },
   "copyright": {
     "message": "Copyright © 2026 feathVR",
     "description": "The footer copyright"

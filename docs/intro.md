@@ -9,6 +9,16 @@ VOrbit ASMRは、2Dアバターの動きに合わせて声の位置を変える�
 
 このサイトでは、導入、初回設定、トラッキング接続、キャリブレーション、空間マッピング、音声出力、トラブル対処を説明します。購入前に、必要な環境や設定の流れを確認する用途にも利用できます。
 
+<div className="steam-cta">
+  <div>
+    <strong>Steamで公開予定</strong>
+    <p>Steamストアページで製品情報を確認し、ウィッシュリストに追加できます。</p>
+  </div>
+  <a className="button button--primary button--lg" href="https://store.steampowered.com/app/5173840/">
+    Steamストアページを見る
+  </a>
+</div>
+
 ## 目的から選ぶ
 
 - [最初の音を出す](getting-started/first-sound) — 導入後の基本的な設定手順
