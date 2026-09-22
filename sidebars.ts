@@ -10,6 +10,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: '音声経路',
+      items: ['audio/routes', 'audio/vst-bridge', 'audio/noise-suppression'],
+    },
+    {
+      type: 'category',
       label: 'トラッキング',
       items: ['tracking/overview', 'tracking/calibration'],
     },

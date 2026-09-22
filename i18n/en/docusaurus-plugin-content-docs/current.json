@@ -7,6 +7,10 @@
     "message": "Getting started",
     "description": "The label for category 'はじめに' in sidebar 'docs'"
   },
+  "sidebar.docs.category.音声経路": {
+    "message": "Audio routes",
+    "description": "The label for category '音声経路' in sidebar 'docs'"
+  },
   "sidebar.docs.category.トラッキング": {
     "message": "Tracking",
     "description": "The label for category 'トラッキング' in sidebar 'docs'"

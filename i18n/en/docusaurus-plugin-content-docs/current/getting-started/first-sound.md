@@ -19,7 +19,9 @@ Use headphones or earphones instead of speakers when checking spatial audio. Spe
 ## Basic setup
 
 1. Start VOrbit ASMR.
-2. Select the audio input and output devices.
+2. On **Devices**, choose an [audio route](../audio/routes).
+   - **Normal**: select the microphone and output on this screen.
+   - **DAW (VST bridge)**: configure input and output in your DAW, then follow the [VST bridge setup](../audio/vst-bridge).
 3. Choose a tracking source and connect it.
 4. Select the parameter to use for horizontal (X-axis) movement.
 5. Put the avatar in its normal front-facing pose and calibrate it.
@@ -29,7 +31,11 @@ When the voice follows the horizontal value and travels along an arc around the 
 
 ![Initial device setup screen](/img/screenshots/en/tutorial-0-en-light.png)
 
-_The initial device screen. You can leave the input and output on the system defaults while checking the first signal._
+_The current first-run device screen. With Normal selected, choose input and output here. You can leave both on the system defaults for the first check._
+
+:::tip Noise suppression is optional
+Enable it only when steady background noise such as a PC fan or air conditioner is distracting. It is off by default and adds about 10 ms of latency. See [Noise suppression](../audio/noise-suppression) for details.
+:::
 
 ![Position and tracking screen](/img/screenshots/en/tutorial-1-en-light.png)
 
