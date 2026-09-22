@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.はじめに": {
+    "message": "Getting started",
+    "description": "The label for category 'はじめに' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.トラッキング": {
+    "message": "Tracking",
+    "description": "The label for category 'トラッキング' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.空間音響": {
+    "message": "Spatial audio",
+    "description": "The label for category '空間音響' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.困ったとき": {
+    "message": "Troubleshooting",
+    "description": "The label for category '困ったとき' in sidebar 'docs'"
+  }
+}

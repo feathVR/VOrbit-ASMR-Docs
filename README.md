@@ -1,6 +1,7 @@
-# VOrbit ASMR 操作ガイド
+# VOrbit ASMR 操作ガイド / User Guide
 
-VOrbit ASMRの一般公開ユーザーガイドです。
+VOrbit ASMRの一般公開ユーザーガイドです。日本語を既定言語とし、英語版もDocusaurus i18nで提供します。
+This is the public user guide for VOrbit ASMR. Japanese is the default locale, with an English locale provided through Docusaurus i18n.
 
 公開サイト: https://feathvr.github.io/VOrbit-ASMR-Docs/
 
@@ -12,6 +13,8 @@ VOrbit ASMRの一般公開ユーザーガイドです。
 - 空間音響の設定
 - トラブルシューティング
 - FAQ
+- English translations under `i18n/en/docusaurus-plugin-content-docs/current/`
+- Screenshot inventory and capture notes in `SCREENSHOT_PLAN.md`
 
 ## ローカルで確認する
 

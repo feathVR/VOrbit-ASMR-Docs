@@ -1,8 +1,12 @@
 import type {Config} from '@docusaurus/types';
 
 const config: Config = {
-  title: 'VOrbit ASMR 操作ガイド',
-  tagline: '導入からトラッキング、空間音響の設定まで',
+  title: process.env.DOCUSAURUS_CURRENT_LOCALE === 'en'
+    ? 'VOrbit ASMR User Guide'
+    : 'VOrbit ASMR 操作ガイド',
+  tagline: process.env.DOCUSAURUS_CURRENT_LOCALE === 'en'
+    ? 'Setup, tracking, and spatial audio'
+    : '導入からトラッキング、空間音響の設定まで',
   favicon: 'img/favicon.svg',
   url: 'https://feathvr.github.io',
   baseUrl: '/VOrbit-ASMR-Docs/',
@@ -11,8 +15,11 @@ const config: Config = {
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'ja',
-    locales: ['ja'],
-    localeConfigs: {ja: {label: '日本語', htmlLang: 'ja-JP'}},
+    locales: ['ja', 'en'],
+    localeConfigs: {
+      ja: {label: '日本語', htmlLang: 'ja-JP'},
+      en: {label: 'English', htmlLang: 'en-US'},
+    },
   },
   presets: [
     [
