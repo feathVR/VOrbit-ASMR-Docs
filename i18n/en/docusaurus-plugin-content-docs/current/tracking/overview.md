@@ -23,7 +23,7 @@ The most useful VMC parameter depends on the sending application and model. For 
 1. `Head.RotZ`
 2. `Hips.PosX`
 
-In either case, assign only the X axis at first and leave Y and Z set to `—`. `Root.PosX` is not recommended as the first X-axis parameter to try.
+In either case, assign only the X axis at first and leave Y and Z set to `—`.
 
 ### Example: iFacialMocap with Warudo
 
