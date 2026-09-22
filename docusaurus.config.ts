@@ -43,6 +43,7 @@ const config: Config = {
       items: [
         {to: '/', label: '操作ガイド', position: 'left'},
         {to: '/troubleshooting/common-issues', label: '困ったとき', position: 'left'},
+        {type: 'localeDropdown', position: 'right'},
         {href: 'https://github.com/feathVR/VOrbit-ASMR-Docs', label: 'GitHub', position: 'right'},
       ],
     },
