@@ -11,10 +11,31 @@ VOrbit ASMRは複数のトラッキング方式に対応しています。接続
 | ソース | 接続方式 | 最初に試すX軸 |
 | --- | --- | --- |
 | VTube Studio | PC API WebSocket | `FacePositionX` |
-| VMC | OSC/UDP | `Root.PosX` |
+| VMC | OSC/UDP | `Head.RotZ`（第1候補）、`Hips.PosX`（第2候補） |
 | nizima LIVE | Plugin WebSocket | `Cubism.ParamAngleX` |
 
 表のパラメーターは、最初の接続確認に適した初期候補です。ソースが提供する値に応じて、上下方向や距離にも別のパラメーターを割り当てられます。`—`を選んだ軸は使用されません。
+
+## VMCで最初に試す設定
+
+VMCでは送信アプリやモデルによって、使いやすいパラメーターが異なります。横方向（X軸）は、次の順で試してください。
+
+1. `Head.RotZ`
+2. `Hips.PosX`
+
+どちらの場合も、最初はX軸だけに割り当て、Y軸とZ軸は`—`のままにします。`Root.PosX`は最初に試すX軸としては推奨しません。
+
+### iFacialMocapとWarudoの設定例
+
+| 項目 | 設定 |
+| --- | --- |
+| キャプチャー方法・カメラ | iFacialMocap |
+| VOrbit ASMR側の接続方法 | WarudoからVMCプロトコルで送信 |
+| X | `Head.RotZ`（横方向のみ使用） |
+| Y | `—` |
+| Z | `—` |
+
+Warudo側でVMC送信を有効にし、VOrbit ASMRでは入力ソースとして「VMC Protocol」を選んで接続します。
 
 ## 最初におすすめする設定
 
