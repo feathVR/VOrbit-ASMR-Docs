@@ -12,7 +12,7 @@ sidebar_position: 3
 - If breath, whispers, and fine texture are most important, listen with it off first.
 - Enabling it adds about **10 ms** of latency.
 
-Changing the setting restarts the audio engine. Before streaming or recording, listen on headphones and check both your voice and quieter sounds.
+You cannot change this setting while audio is running. Press Stop, change it, and it will take effect the next time you press Start. Before streaming or recording, listen on headphones and check both your voice and quieter sounds.
 
 :::note
 Noise suppression applies to microphone voice input. It does not process stereo or binaural material input.
