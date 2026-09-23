@@ -6,6 +6,12 @@ sidebar_position: 1
 
 This page takes you from installation to hearing a voice move through space. Start with horizontal movement only; it makes connection and calibration issues easier to isolate.
 
+## Quick start at a glance
+
+![Five-step VOrbit ASMR quick start covering first sound and optional automatic tracking](/img/quick-start-en.svg)
+
+_Steps 1–3 check sound and position. Continue with steps 4–5 only if you want automatic tracking. [Open the image to zoom in](/img/quick-start-en.svg)._
+
 ## What you need
 
 - A microphone and headphones or earphones
