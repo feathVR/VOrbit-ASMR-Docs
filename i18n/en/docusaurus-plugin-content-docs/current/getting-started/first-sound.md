@@ -8,7 +8,7 @@ This page takes you from installation to hearing a voice move through space. Sta
 
 ## Quick start at a glance
 
-![Five-step VOrbit ASMR quick start covering first sound and optional automatic tracking](/img/quick-start-en.svg)
+<img src="/VOrbit-ASMR-Docs/img/quick-start-en.svg" alt="Five-step VOrbit ASMR quick start covering first sound and optional automatic tracking" width="1200" height="1600" />
 
 _Steps 1–3 check sound and position. Continue with steps 4–5 only if you want automatic tracking. [Open the image to zoom in](/img/quick-start-en.svg)._
 

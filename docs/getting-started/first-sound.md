@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## 一枚でわかる、かんたん設定
 
-![VOrbit ASMRの音出しと自動追従を5段階で説明する、かんたん設定シート](/img/quick-start-ja.svg)
+<img src="/VOrbit-ASMR-Docs/img/quick-start-ja.svg" alt="VOrbit ASMRの音出しと自動追従を5段階で説明する、かんたん設定シート" width="1200" height="1600" />
 
 _まず1〜3で音と位置の変化を確認します。自動追従を使う場合だけ4〜5へ進んでください。[画像を開いて拡大](/img/quick-start-ja.svg)できます。_
 
