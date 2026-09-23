@@ -6,9 +6,11 @@ sidebar_position: 2
 
 VSTブリッジは、DAWやVSTホスト内のマイク音声をVOrbit ASMRへ送り、空間化した音声を同じプラグイン位置へ戻します。
 
-<img src="/VOrbit-ASMR-Docs/img/vst-bridge-flow-ja.svg" alt="マイク、DAWのマイクトラック内のVOrbit Bridge、DAW出力、ヘッドホンの順に音が流れ、Bridgeと下側のVOrbit ASMRが音声を往復する図" width="1400" height="660" />
+<img src="/VOrbit-ASMR-Docs/img/vst-bridge-flow-ja.svg" alt="マイクからDAWのVOrbit Bridge、DAW出力を経てOBSへ音を渡す。VOrbit ASMRはBridgeと音声を往復し、ヘッドホンは別のモニター経路として示す図" width="1400" height="820" />
 
 _音声の流れを示す概念図です。[画像を開いて拡大](/img/vst-bridge-flow-ja.svg)できます。_
+
+OBSへ配信する場合は、**DAWの加工後音声をOBSに取り込む経路を別途設定**します。DAWの出力先や仮想音声デバイスなど、使う環境に合う方法を選んでください。ヘッドホンで聞こえることだけでは、OBSに届いた確認にはなりません。OBSの音声メーターと短いテスト録画で確認してください。
 
 ## 設定手順
 
@@ -16,7 +18,7 @@ _音声の流れを示す概念図です。[画像を開いて拡大](/img/vst-b
 2. 展開された「DAWで使う（VSTブリッジ）」で「ブリッジの場所を開く」を押します。
 3. **`VOrbit Bridge.vst3` フォルダー全体**を、使用するDAWが読み込むVST3フォルダーへコピーします。中のファイルだけを取り出さないでください。
 4. DAWでプラグインを再スキャンします。
-5. マイクのトラックへ **VOrbit Bridge** を挿します。
+5. マイクのトラックへ **VOrbit Bridge** を挿し、DAWの入力モニターを有効にします。
 6. VOrbit ASMRで「開始」を押します。
 
 ![VSTブリッジの設定画面](/img/screenshots/ja/vst-bridge-ja.png)

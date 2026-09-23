@@ -1,1 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="660" viewBox="0 0 1400 660" role="img" aria-labelledby="title desc"><title id="title">VSTブリッジの音声経路</title><desc id="desc">マイクからDAWのマイクトラック内のVOrbit Bridgeを通り、DAW出力からヘッドホンへ。Bridgeと下側のVOrbit ASMRの間で声を送り、空間化した音を戻す。</desc><defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#365bbb" stroke-width="2"/></marker><marker id="b" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#087e77" stroke-width="2"/></marker></defs><rect width="1400" height="660" rx="28" fill="#f4f7fc"/><g font-family="Noto Sans JP, Yu Gothic, sans-serif"><text x="50" y="67" font-size="36" font-weight="800" fill="#182a48">VSTブリッジの音の流れ</text><text x="50" y="105" font-size="21" fill="#53657c">音を聴くまでの経路は左から右へ。空間化はトラック内のプラグインを通して行います。</text><rect x="50" y="182" width="195" height="165" rx="20" fill="#fff" stroke="#cad7e9" stroke-width="2"/><circle cx="105" cy="237" r="21" fill="#e5edfa"/><rect x="99" y="257" width="12" height="30" rx="5" fill="#365bbb"/><text x="76" y="321" font-size="28" font-weight="750" fill="#182a48">マイク</text><rect x="325" y="152" width="480" height="225" rx="24" fill="#eaf1ff" stroke="#93b0df" stroke-width="2"/><text x="351" y="195" font-size="27" font-weight="800" fill="#244ab0">DAWのマイクトラック</text><text x="352" y="227" font-size="18" fill="#53657c">入力モニターを有効にする</text><rect x="382" y="251" width="363" height="88" rx="16" fill="#fff" stroke="#789be0" stroke-width="3"/><text x="409" y="289" font-size="26" font-weight="800" fill="#182a48">VOrbit Bridge</text><text x="411" y="319" font-size="17" fill="#53657c">ここにVST3プラグインを挿す</text><rect x="889" y="182" width="195" height="165" rx="20" fill="#fff" stroke="#cad7e9" stroke-width="2"/><text x="916" y="255" font-size="25" font-weight="750" fill="#182a48">DAWの出力</text><text x="918" y="295" font-size="18" fill="#53657c">出力先を設定</text><rect x="1164" y="182" width="195" height="165" rx="20" fill="#fff" stroke="#cad7e9" stroke-width="2"/><path d="M1221 267v-30a42 42 0 0 1 84 0v30m-84-5h-15v35h15zm84 0h15v35h-15z" fill="none" stroke="#365bbb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><text x="1185" y="330" font-size="24" font-weight="750" fill="#182a48">ヘッドホン</text><g fill="none" stroke="#365bbb" stroke-width="5" marker-end="url(#a)"><path d="M251 265h61"/><path d="M811 265h65"/><path d="M1090 265h61"/></g><rect x="389" y="455" width="366" height="120" rx="22" fill="#e8f8f5" stroke="#65aea7" stroke-width="2"/><text x="430" y="505" font-size="29" font-weight="800" fill="#075c57">VOrbit ASMR</text><text x="430" y="544" font-size="22" fill="#286762">声を空間化するアプリ</text><path d="M475 345v95" fill="none" stroke="#365bbb" stroke-width="5" marker-end="url(#a)"/><path d="M675 447v-96" fill="none" stroke="#087e77" stroke-width="5" marker-end="url(#b)"/><text x="407" y="408" font-size="18" font-weight="700" fill="#365bbb">声を送る</text><text x="686" y="409" font-size="18" font-weight="700" fill="#087e77">空間化した音を戻す</text><text x="50" y="627" font-size="20" fill="#53657c">VOrbit ASMRはマイクやヘッドホンを直接開きません。入力・出力デバイスはDAW側で選びます。</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">VSTブリッジからOBSへ送る音声の流れ</title>
+  <desc id="desc">マイク、DAWのマイクトラック内のVOrbit Bridge、DAWの出力、OBSへ進む。VOrbit Bridgeは下のVOrbit ASMRと音を往復する。ヘッドホンはDAW出力を聴くモニター用で、OBSへの取り込みとは別。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 10 6 1 11" fill="none" stroke="#4263c5" stroke-width="2"/></marker>
+    <marker id="return" viewBox="0 0 12 12" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 10 6 1 11" fill="none" stroke="#008e83" stroke-width="2"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#172950" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1400" height="820" rx="28" fill="#f4f7fc"/>
+  <path d="M0 28Q0 0 28 0H1372Q1400 0 1400 28V142H0Z" fill="#15234a"/>
+  <g font-family="Noto Sans JP, Yu Gothic, sans-serif">
+    <text x="55" y="60" fill="#a7c3ff" font-size="21" font-weight="700">VORBIT ASMR  ·  VST BRIDGE</text>
+    <text x="55" y="112" fill="#fff" font-size="42" font-weight="800">マイクの声を加工して、OBSへ届ける</text>
+    <text x="55" y="183" fill="#244ab7" font-size="22" font-weight="800">配信に届く音の流れ</text>
+
+    <g filter="url(#shadow)">
+      <rect x="48" y="213" width="210" height="238" rx="22" fill="#fff"/>
+      <rect x="318" y="213" width="450" height="238" rx="22" fill="#e9efff" stroke="#a9bdec" stroke-width="2"/>
+      <rect x="828" y="213" width="215" height="238" rx="22" fill="#fff"/>
+      <rect x="1103" y="213" width="247" height="238" rx="22" fill="#fff" stroke="#a0cfc8" stroke-width="2"/>
+    </g>
+    <!-- Microphone icon -->
+    <rect x="130" y="255" width="46" height="70" rx="23" fill="#dce5fb" stroke="#4263c5" stroke-width="5"/>
+    <path d="M118 303a35 35 0 0 0 70 0M153 338v24m-23 0h46" fill="none" stroke="#4263c5" stroke-width="6" stroke-linecap="round"/>
+    <text x="153" y="406" text-anchor="middle" font-size="26" font-weight="800" fill="#172746">マイク</text>
+
+    <!-- DAW track and plug-in insert -->
+    <text x="348" y="258" font-size="25" font-weight="800" fill="#244ab7">DAWのマイクトラック</text>
+    <rect x="354" y="282" width="378" height="105" rx="17" fill="#fff" stroke="#7391dc" stroke-width="3"/>
+    <rect x="373" y="300" width="66" height="68" rx="12" fill="#e9efff"/>
+    <path d="M386 341h8l6-16 9 28 7-17h11" fill="none" stroke="#4263c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="458" y="328" font-size="26" font-weight="800" fill="#172746">VOrbit Bridge</text>
+    <text x="458" y="357" font-size="17" fill="#52627b">ここに挿すプラグイン</text>
+
+    <!-- DAW stereo output icon -->
+    <rect x="899" y="263" width="72" height="72" rx="14" fill="#e9efff"/>
+    <path d="M919 292v17m18-28v39m18-28v17" stroke="#4263c5" stroke-width="7" stroke-linecap="round"/>
+    <text x="935" y="376" text-anchor="middle" font-size="26" font-weight="800" fill="#172746">DAWの出力</text>
+    <text x="935" y="407" text-anchor="middle" font-size="18" fill="#52627b">加工後のステレオ音</text>
+
+    <!-- OBS display icon -->
+    <rect x="1172" y="262" width="109" height="75" rx="9" fill="#e5f6f2" stroke="#008e83" stroke-width="5"/>
+    <circle cx="1207" cy="300" r="16" fill="#008e83"/><path d="M1202 290l16 10-16 10z" fill="#fff"/>
+    <path d="M1205 344h42m-21-7v7" stroke="#008e83" stroke-width="5" stroke-linecap="round"/>
+    <text x="1226" y="381" text-anchor="middle" font-size="29" font-weight="800" fill="#075f58">OBS</text>
+    <text x="1226" y="410" text-anchor="middle" font-size="17" fill="#52627b">配信・録画へ</text>
+
+    <!-- Horizontal path ends at the actual plug-in, not the DAW container -->
+    <path d="M261 335h78" fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M772 335h43" fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M1047 335h43" fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <!-- VOrbit application beneath Bridge; labels stay outside the arrows -->
+    <rect x="350" y="540" width="388" height="144" rx="22" fill="#e5f7f3" stroke="#83c9be" stroke-width="2" filter="url(#shadow)"/>
+    <circle cx="410" cy="590" r="24" fill="#008e83"/><path d="M395 590l8-12 13 24 9-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="597" font-size="30" font-weight="800" fill="#075f58">VOrbit ASMR</text>
+    <text x="380" y="650" font-size="21" fill="#286a64">ここで声を空間化</text>
+    <path d="M457 392v132" fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M655 526V398" fill="none" stroke="#008e83" stroke-width="5" marker-end="url(#return)"/>
+    <text x="350" y="495" font-size="18" font-weight="700" fill="#3654aa">声を送る</text>
+    <text x="668" y="492" font-size="18" font-weight="700" fill="#08786f">↑ 加工後の音を戻す</text>
+
+    <!-- Separate monitoring branch -->
+    <path d="M935 456v126h38" fill="none" stroke="#9aa9bd" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+    <rect x="991" y="536" width="325" height="107" rx="18" fill="#fff" stroke="#cbd5e2" stroke-width="2"/>
+    <path d="M1033 592v-15a19 19 0 0 1 38 0v15m-38-4h-8v16h8zm38 0h8v16h-8z" fill="none" stroke="#6d7e98" stroke-width="4" stroke-linejoin="round"/>
+    <text x="1094" y="579" font-size="22" font-weight="700" fill="#354765">ヘッドホン</text>
+    <text x="1094" y="610" font-size="16" fill="#61718a">自分で聴くモニター用</text>
+
+    <rect x="48" y="722" width="1302" height="67" rx="16" fill="#e9efff"/>
+    <text x="75" y="750" font-size="18" font-weight="700" fill="#244ab7">OBSへの取り込みは別途設定</text>
+    <text x="75" y="777" font-size="18" fill="#41526f">DAWの加工後音声をOBSへ渡す方法は、使用するDAWと音声デバイスによって異なります。</text>
+  </g>
+</svg>
