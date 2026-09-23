@@ -6,6 +6,10 @@ sidebar_position: 2
 
 The VST bridge sends microphone audio from a DAW or VST host to VOrbit ASMR and returns the spatialized signal to the same plug-in insert.
 
+<img src="/VOrbit-ASMR-Docs/img/vst-bridge-flow-en.svg" alt="Microphone audio goes from a DAW track through VOrbit Bridge to VOrbit ASMR, returns to the same plug-in insert, then reaches headphones through the DAW output" width="1200" height="760" />
+
+_Conceptual signal-flow diagram. [Open the image to zoom in](/img/vst-bridge-flow-en.svg)._
+
 ## Setup
 
 1. Open Devices in VOrbit ASMR and select **DAW (VST bridge)**.
