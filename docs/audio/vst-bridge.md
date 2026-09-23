@@ -6,7 +6,7 @@ sidebar_position: 2
 
 VSTブリッジは、DAWやVSTホスト内のマイク音声をVOrbit ASMRへ送り、空間化した音声を同じプラグイン位置へ戻します。
 
-<img src="/VOrbit-ASMR-Docs/img/vst-bridge-flow-ja.svg" alt="マイクからDAWのVOrbit Bridgeへ入り、VOrbit ASMRで空間化され、同じプラグイン位置へ戻ってヘッドホンへ届く音声の流れ" width="1200" height="760" />
+<img src="/VOrbit-ASMR-Docs/img/vst-bridge-flow-ja.svg" alt="マイク、DAWのマイクトラック内のVOrbit Bridge、DAW出力、ヘッドホンの順に音が流れ、Bridgeと下側のVOrbit ASMRが音声を往復する図" width="1400" height="660" />
 
 _音声の流れを示す概念図です。[画像を開いて拡大](/img/vst-bridge-flow-ja.svg)できます。_
 
