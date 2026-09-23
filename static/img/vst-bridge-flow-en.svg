@@ -22,7 +22,11 @@
     <text x="935" y="376" text-anchor="middle" font-size="26" font-weight="800" fill="#172746">DAW output</text><text x="935" y="407" text-anchor="middle" font-size="18" fill="#52627b">Processed stereo audio</text>
     <rect x="1172" y="262" width="109" height="75" rx="9" fill="#e5f6f2" stroke="#008e83" stroke-width="5"/><circle cx="1207" cy="300" r="16" fill="#008e83"/><path d="M1202 290l16 10-16 10z" fill="#fff"/><path d="M1205 344h42m-21-7v7" stroke="#008e83" stroke-width="5" stroke-linecap="round"/>
     <text x="1226" y="381" text-anchor="middle" font-size="29" font-weight="800" fill="#075f58">OBS</text><text x="1226" y="410" text-anchor="middle" font-size="17" fill="#52627b">Stream / record</text>
-    <path d="M261 335h78M772 335h43M1047 335h43" fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)"/>
+    <g fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)">
+      <path d="M261 335h78"/>
+      <path d="M772 335h43"/>
+      <path d="M1047 335h43"/>
+    </g>
     <rect x="350" y="540" width="388" height="144" rx="22" fill="#e5f7f3" stroke="#83c9be" stroke-width="2" filter="url(#shadow)"/>
     <rect x="377" y="557" width="66" height="66" rx="16" fill="#fff"/>
     <g transform="translate(382 562) scale(.56)">
