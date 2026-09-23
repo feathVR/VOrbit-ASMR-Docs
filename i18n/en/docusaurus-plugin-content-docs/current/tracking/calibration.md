@@ -10,6 +10,10 @@ Before calibrating, put the avatar in its normal front-facing pose. Each assigne
 
 ## Recommended procedure
 
+<img src="/VOrbit-ASMR-Docs/img/calibration-en.svg" alt="Four steps: assign X, capture center facing front, move left and right while measuring range, and confirm Calibrated" width="1200" height="660" />
+
+_Follow the diagram as you set up. [Open the image to zoom in](/img/calibration-en.svg)._
+
 1. Assign a parameter to horizontal movement.
 2. Return the avatar to its normal front-facing pose.
 3. Complete horizontal calibration.
