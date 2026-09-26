@@ -8,9 +8,9 @@ sidebar_position: 99
 
 Yes. This public guide explains the required applications, connection methods, and setup flow so that you can review them before purchase.
 
-## Do I need to configure X, Y, and Z from the beginning?
+## Do I need to set up horizontal, vertical and depth from the beginning?
 
-No. Start with the X axis and confirm left-to-right movement. Add Y or Z when the tracking source provides a stable value you actually need.
+No. Start with the horizontal axis and confirm left-to-right movement. Add vertical or depth when the tracking source provides a stable value you actually need.
 
 ## What happens to an unassigned axis?
 

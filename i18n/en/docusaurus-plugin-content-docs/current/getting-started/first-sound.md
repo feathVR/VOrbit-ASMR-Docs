@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Make your first sound
 
-This page takes you from installation to hearing a voice move through space. Start with horizontal movement only; it makes connection and calibration issues easier to isolate.
+This page takes you from installation to hearing your voice move through space. Start without tracking and move the voice by hand first; it makes it much easier to see where something goes wrong.
 
 ## Quick start at a glance
 
@@ -15,38 +15,66 @@ _Steps 1–3 check sound and position. Continue with steps 4–5 only if you wan
 ## What you need
 
 - A microphone and headphones or earphones
-- A compatible avatar or tracking application
-- An avatar in its normal front-facing pose
+- For automatic movement, a compatible avatar or tracking application (VTube Studio, nizima LIVE, or a VMC sender)
 
 :::warning
 Use headphones or earphones instead of speakers when checking spatial audio. Speakers cannot reproduce the intended binaural positioning reliably.
 :::
 
-## Basic setup
+## Follow the tutorial
 
-1. Start VOrbit ASMR.
-2. On **Devices**, choose an [audio route](../audio/routes).
-   - **Normal**: select the microphone and output on this screen.
-   - **DAW (VST bridge)**: configure input and output in your DAW, then follow the [VST bridge setup](../audio/vst-bridge).
-3. Choose a tracking source and connect it.
-4. Select the parameter to use for horizontal (X-axis) movement.
-5. Put the avatar in its normal front-facing pose and calibrate it.
-6. Speak into the microphone and slowly move the avatar left and right.
+On first launch the app opens the Devices page and shows a **Getting started** guide at the top of the window. It has five steps:
 
-When the voice follows the horizontal value and travels along an arc around the listener's head, the basic setup is complete.
+![The Getting started guide](/img/screenshots/en/tutorial-en.png)
 
-![Initial device setup screen](/img/screenshots/en/tutorial-0-en-light.png)
+_The Getting started guide, showing its first step, "Choose microphone and output"._
 
-_The current first-run device screen. With Normal selected, choose input and output here. You can leave both on the system defaults for the first check._
+1. Choose microphone and output
+2. Listen to the position change
+3. Connect tracking
+4. Capture center and movement range
+5. Send the audio to your stream
 
-:::tip Noise suppression is optional
-Enable it only when steady background noise such as a PC fan or air conditioner is distracting. It is off by default and adds about 10 ms of latency. See [Noise suppression](../audio/noise-suppression) for details.
+**Show settings** on each step opens the page for that step and highlights where to look. A step is marked as done when you complete it, but the guide never moves on by itself. Press **Checked — next** when you are ready.
+
+To stop part way, press **Later (Help)**. You can start again from the beginning with **Start tutorial** on the Help tab.
+
+## Steps
+
+### 1. Choose microphone and output
+
+Open the **Devices** tab and make sure **Audio route** is set to **Normal**. Choose your microphone under **Input device (microphone)** and the device your headphones are connected to under **Output device**. Leave either one on **System default** if you are unsure.
+
+To use VOrbit ASMR inside a DAW, choose **DAW (VST bridge)** and follow the [VST bridge setup](../audio/vst-bridge).
+
+![The Devices page](/img/screenshots/en/device-en.png)
+
+_The Devices page. With Normal selected, choose the microphone and output here._
+
+### 2. Press Start and make a sound
+
+Press **Start** at the top and hold an "ah" into the microphone. You are set when you hear yourself in your headphones and both the input and output meters at the top move.
+
+### 3. Drag the red dot
+
+On the **Position** tab, set **Control mode** to **Manual**. Keep holding the sound while you drag the red dot (your voice) on a pad from side to side. If your voice moves in your headphones, you have the basic VOrbit ASMR experience working.
+
+![The Position page in Manual mode](/img/screenshots/en/position-manual-en.png)
+
+_The left pad shows horizontal and vertical position; the right pad shows horizontal position and depth. The red dot is your voice._
+
+### 4. Move the voice automatically (optional)
+
+To let your avatar move the voice, [connect tracking](../tracking/overview) and [calibrate the centre and range](../tracking/calibration).
+
+### 5. Send the audio to your stream
+
+If you stream, see [Send the audio to OBS](../streaming/obs).
+
+:::tip Noise reduction is optional
+Enable it only when steady background noise such as a PC fan or air conditioner is distracting. It is off by default and adds about 10 ms of latency. See [Noise reduction](../audio/noise-suppression) for details.
 :::
-
-![Position and tracking screen](/img/screenshots/en/tutorial-1-en-light.png)
-
-_The position pads and automatic tracking connection area. Start by checking left-to-right movement only._
 
 ## If it does not work
 
-Use [Common issues](../troubleshooting/common-issues) to check the audio devices, mute state, and tracking connection.
+Use [Common issues](../troubleshooting/common-issues) to check dropouts, audio devices, and the tracking connection.
