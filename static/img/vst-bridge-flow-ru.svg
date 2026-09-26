@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Путь звука от VST-моста до OBS</title>
+  <desc id="desc">Звук идёт от микрофона через VOrbit Bridge на дорожке микрофона в DAW, затем через выход DAW в OBS. Плагин обменивается звуком с VOrbit ASMR внизу. Наушники отдельно прослушивают выход DAW.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" markerWidth="7" markerHeight="7" refX="10" refY="6" orient="auto"><path d="M2 2 9 6 2 10" fill="none" stroke="#4263c5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="return" viewBox="0 0 12 12" markerWidth="7" markerHeight="7" refX="10" refY="6" orient="auto"><path d="M2 2 9 6 2 10" fill="none" stroke="#008e83" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#172950" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1400" height="820" rx="28" fill="#f4f7fc"/>
+  <path d="M0 28Q0 0 28 0H1372Q1400 0 1400 28V142H0Z" fill="#15234a"/>
+  <g font-family="Arial, sans-serif">
+    <text x="55" y="60" fill="#a7c3ff" font-size="21" font-weight="700">VORBIT ASMR  ·  VST-МОСТ</text>
+    <text x="55" y="112" fill="#fff" font-size="42" font-weight="800">Обработайте голос и отправьте его в OBS</text>
+    <text x="55" y="183" fill="#244ab7" font-size="22" font-weight="800">Путь звука до трансляции</text>
+    <g filter="url(#shadow)"><rect x="48" y="213" width="210" height="238" rx="22" fill="#fff"/><rect x="318" y="213" width="450" height="238" rx="22" fill="#e9efff" stroke="#a9bdec" stroke-width="2"/><rect x="828" y="213" width="215" height="238" rx="22" fill="#fff"/><rect x="1103" y="213" width="247" height="238" rx="22" fill="#fff" stroke="#a0cfc8" stroke-width="2"/></g>
+    <rect x="130" y="255" width="46" height="70" rx="23" fill="#dce5fb" stroke="#4263c5" stroke-width="5"/><path d="M118 303a35 35 0 0 0 70 0M153 338v24m-23 0h46" fill="none" stroke="#4263c5" stroke-width="6" stroke-linecap="round"/>
+    <text x="153" y="406" text-anchor="middle" font-size="25" font-weight="800" fill="#172746">Микрофон</text>
+    <text x="348" y="258" font-size="25" font-weight="800" fill="#244ab7">Дорожка микрофона в DAW</text>
+    <rect x="354" y="282" width="378" height="105" rx="17" fill="#fff" stroke="#7391dc" stroke-width="3"/><rect x="373" y="300" width="66" height="68" rx="12" fill="#e9efff"/><path d="M386 341h8l6-16 9 28 7-17h11" fill="none" stroke="#4263c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="458" y="328" font-size="26" font-weight="800" fill="#172746">VOrbit Bridge</text><text x="458" y="357" font-size="17" fill="#52627b">Вставьте плагин сюда</text>
+    <rect x="899" y="263" width="72" height="72" rx="14" fill="#e9efff"/><path d="M919 292v17m18-28v39m18-28v17" stroke="#4263c5" stroke-width="7" stroke-linecap="round"/>
+    <text x="935" y="376" text-anchor="middle" font-size="26" font-weight="800" fill="#172746">Выход DAW</text><text x="935" y="407" text-anchor="middle" font-size="18" fill="#52627b">Обработанное стерео</text>
+    <rect x="1172" y="262" width="109" height="75" rx="9" fill="#e5f6f2" stroke="#008e83" stroke-width="5"/><circle cx="1207" cy="300" r="16" fill="#008e83"/><path d="M1202 290l16 10-16 10z" fill="#fff"/><path d="M1205 344h42m-21-7v7" stroke="#008e83" stroke-width="5" stroke-linecap="round"/>
+    <text x="1226" y="381" text-anchor="middle" font-size="29" font-weight="800" fill="#075f58">OBS</text><text x="1226" y="410" text-anchor="middle" font-size="17" fill="#52627b">Трансляция / запись</text>
+    <g fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)">
+      <path d="M261 335h78"/>
+      <path d="M772 335h43"/>
+      <path d="M1047 335h43"/>
+    </g>
+    <rect x="350" y="540" width="388" height="144" rx="22" fill="#e5f7f3" stroke="#83c9be" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="377" y="557" width="66" height="66" rx="16" fill="#fff"/>
+    <g transform="translate(382 562) scale(.56)">
+      <path d="M93.5717950246291,56.12361644224288A44,44,0,1,1,91.34647531457998,34.95111369367057" fill="none" stroke="#2FC2B4" stroke-width="5.5" stroke-linecap="round"/>
+      <ellipse cx="50" cy="27" rx="5" ry="7" fill="#1E2026" stroke="#1E2026" stroke-width="7"/>
+      <rect x="20" y="44" width="10" height="18" rx="5" fill="#1E2026" stroke="#1E2026" stroke-width="7"/>
+      <rect x="70" y="44" width="10" height="18" rx="5" fill="#1E2026" stroke="#1E2026" stroke-width="7"/>
+      <path d="M50,24C63.8,24 73,38.31 73,53.16 73,67.2 67.02,78 50,78 32.98,78 27,67.2 27,53.16 27,38.31 36.2,24 50,24z" fill="#1E2026" stroke="#1E2026" stroke-width="7"/>
+      <ellipse cx="50" cy="27" rx="5" ry="7" fill="#C8C8D2"/>
+      <rect x="20" y="44" width="10" height="18" rx="5" fill="#878181"/>
+      <rect x="70" y="44" width="10" height="18" rx="5" fill="#878181"/>
+      <path d="M50,24C63.8,24 73,38.31 73,53.16 73,67.2 67.02,78 50,78 32.98,78 27,67.2 27,53.16 27,38.31 36.2,24 50,24z" fill="#C8C8D2"/>
+      <circle cx="93.759" cy="45.401" r="7" fill="#E64B45"/>
+    </g>
+    <text x="452" y="597" font-size="30" font-weight="800" fill="#075f58">VOrbit ASMR</text><text x="380" y="650" font-size="21" fill="#286a64">Пространственная обработка</text>
+    <path d="M457 392v132" fill="none" stroke="#4263c5" stroke-width="5" marker-end="url(#arrow)"/><path d="M655 526V398" fill="none" stroke="#008e83" stroke-width="5" marker-end="url(#return)"/>
+    <text x="350" y="495" font-size="18" font-weight="700" fill="#3654aa">Голос</text><text x="668" y="492" font-size="18" font-weight="700" fill="#08786f">↑ Обработанный звук</text>
+    <path d="M935 456v126h38" fill="none" stroke="#9aa9bd" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#arrow)"/><rect x="991" y="536" width="325" height="107" rx="18" fill="#fff" stroke="#cbd5e2" stroke-width="2"/><path d="M1033 592v-15a19 19 0 0 1 38 0v15m-38-4h-8v16h8zm38 0h8v16h-8z" fill="none" stroke="#6d7e98" stroke-width="4" stroke-linejoin="round"/>
+    <text x="1094" y="579" font-size="22" font-weight="700" fill="#354765">Наушники</text><text x="1094" y="610" font-size="16" fill="#61718a">Только прослушивание</text>
+    <rect x="48" y="722" width="1302" height="67" rx="16" fill="#e9efff"/><text x="75" y="750" font-size="18" font-weight="700" fill="#244ab7">Захват в OBS настраивается отдельно</text><text x="75" y="777" font-size="18" fill="#41526f">Как DAW передаёт обработанный звук в OBS, зависит от DAW и аудиоустройств.</text>
+  </g>
+</svg>

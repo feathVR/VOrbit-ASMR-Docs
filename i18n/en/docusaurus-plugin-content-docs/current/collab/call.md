@@ -43,7 +43,7 @@ If you already have a binaural microphone or a stereo recording setup, tick **Us
 
 This setting cannot be changed while running.
 
-## If it will not connect
+## If it will not connect {#cannot-connect}
 
 - Confirm both people pressed Start, then retry from the beginning with a fresh invite code.
 - The call connects the two of you directly (P2P). Some combinations of networks that are hard to connect directly, such as both sides on mobile connections, cannot connect. Try a fixed-line or IPv6-capable connection on either side.

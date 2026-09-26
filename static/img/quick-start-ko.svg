@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">VOrbit ASMR 빠른 시작</title>
+  <desc id="desc">헤드폰을 쓰고 ‘일반’ 오디오 경로와 장치를 선택한 뒤 ‘시작’을 눌러 미터를 확인합니다. ‘수동’ 모드에서 목소리를 움직입니다. 자동 트래킹을 쓰려면 소스를 연결하고 중앙과 동작 범위를 보정합니다.</desc>
+  <rect width="1200" height="1600" fill="#f5f7fc"/>
+  <rect x="0" y="0" width="1200" height="270" fill="#15234a"/>
+  <text x="72" y="92" fill="#a5c4ff" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="700">VOrbit ASMR  ·  처음 시작하기</text>
+  <text x="72" y="170" fill="#ffffff" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="62" font-weight="800">첫 소리 내기</text>
+  <text x="72" y="225" fill="#d9e6ff" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29">헤드폰을 쓰고 순서대로 따라 하세요</text>
+  <rect x="70" y="305" width="1060" height="715" rx="26" fill="#ffffff" stroke="#d9e1f2" stroke-width="2"/>
+  <text x="110" y="360" fill="#244ab7" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="800">먼저: 소리와 위치 확인</text>
+  <circle cx="135" cy="435" r="29" fill="#315ee0"/><text x="135" y="446" text-anchor="middle" fill="white" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800">1</text>
+  <text x="190" y="430" fill="#14223f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="36" font-weight="700">‘장치’에서 ‘일반’ 선택</text>
+  <text x="190" y="475" fill="#41526f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27">입력 장치는 마이크, 출력 장치는 헤드폰</text>
+  <path d="M135 490v36" stroke="#9cb3e8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="560" r="29" fill="#315ee0"/><text x="135" y="571" text-anchor="middle" fill="white" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800">2</text>
+  <text x="190" y="556" fill="#14223f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="36" font-weight="700">‘시작’을 누르고 말하기</text>
+  <text x="190" y="601" fill="#41526f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27">입력 미터와 좌우 출력 미터가 움직이는지 확인</text>
+  <path d="M135 615v36" stroke="#9cb3e8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="685" r="29" fill="#315ee0"/><text x="135" y="696" text-anchor="middle" fill="white" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800">3</text>
+  <text x="190" y="681" fill="#14223f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="36" font-weight="700">‘수동’에서 목소리 움직이기</text>
+  <text x="190" y="726" fill="#41526f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27">위치 패드의 빨간 점을 좌우로 드래그</text>
+  <rect x="190" y="766" width="895" height="196" rx="20" fill="#edf3ff"/>
+  <text x="222" y="817" fill="#244ab7" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">여기까지 되면 기본 설정 완료</text>
+  <text x="222" y="866" fill="#273955" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27">헤드폰에서 목소리 위치가 움직이는지 들어 보세요.</text>
+  <text x="222" y="916" fill="#52627b" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">DAW를 쓴다면 VST 브리지 안내를 참고하세요.</text>
+  <rect x="70" y="1055" width="1060" height="415" rx="26" fill="#ffffff" stroke="#d9e1f2" stroke-width="2"/>
+  <text x="110" y="1115" fill="#0b7b73" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800">자동 트래킹을 쓸 때만 계속</text>
+  <circle cx="135" cy="1193" r="29" fill="#118a81"/><text x="135" y="1204" text-anchor="middle" fill="white" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800">4</text>
+  <text x="190" y="1188" fill="#14223f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="34" font-weight="700">‘자동’에서 트래킹 연결</text>
+  <text x="190" y="1233" fill="#41526f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26">소스를 고르고 ‘연결’, 처음엔 좌우만 설정</text>
+  <path d="M135 1248v34" stroke="#9bcfca" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="1315" r="29" fill="#118a81"/><text x="135" y="1326" text-anchor="middle" fill="white" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800">5</text>
+  <text x="190" y="1310" fill="#14223f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="34" font-weight="700">중앙과 동작 범위 보정</text>
+  <text x="190" y="1355" fill="#41526f" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26">정면에서 중앙 기록, 좌우로 측정, ‘보정 완료’ 확인</text>
+  <text x="72" y="1535" fill="#52627b" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">자세한 조작, VST 브리지, 문제 해결은 아래 본문을 참고하세요.</text>
+</svg>

@@ -43,11 +43,11 @@ If you use an audio interface, the [DAW (VST bridge)](../audio/vst-bridge) route
 
 ## Another application on the same PC no longer receives VMC
 
-Enable **Forward received data to port** under **Connection details**. See [Tracking sources](../tracking/overview#letting-another-application-receive-vmc-too).
+Enable **Forward received data to port** under **Connection details**. See [Tracking sources](../tracking/overview#vmc-forwarding).
 
 ## Collab cannot connect
 
-Confirm both people pressed Start, then retry from the beginning with a fresh invite code. Also try another fixed-line or IPv6-capable connection. See [Collab calls](../collab/call#if-it-will-not-connect).
+Confirm both people pressed Start, then retry from the beginning with a fresh invite code. Also try another fixed-line or IPv6-capable connection. See [Collab calls](../collab/call#cannot-connect).
 
 ## Doubled or echoing audio
 

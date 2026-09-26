@@ -36,3 +36,7 @@ Full-window images use the minimum window size (1020×580) in the light theme. C
 | `help-*.png` | `troubleshooting/common-issues` | Help page |
 
 The VST bridge image shows the harness's own build path as the bridge location; the page says it is an example. The bridge notice banner that appears for audio-interface users is dismissed for these captures.
+
+## Diagrams for other languages
+
+The SVG diagrams (`quick-start`, `calibration`, `spatial-mapping`, `vst-bridge-flow`) are hand-made in Japanese and English. The versions for `zh-Hans`, `zh-Hant`, `ko`, `ru`, `es` and `pt-BR` are generated from the English SVG by `node scripts/svg-i18n.js`, which replaces each text string with the translation in `scripts/svg-i18n.json` and stops if a string is missing. After editing an English diagram, update the JSON and run the script again, then check in a browser that no text runs past its box (the Russian, Spanish and Portuguese strings are the longest).

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">VOrbit ASMR 快速上手</title>
+  <desc id="desc">戴上耳机，选择“普通”音频路径和设备，按“开始”并确认电平表。在“手动”模式下移动声音。需要自动追踪时，连接输入源并校准中心和动作范围。</desc>
+  <rect width="1200" height="1600" fill="#f5f7fc"/>
+  <rect x="0" y="0" width="1200" height="270" fill="#15234a"/>
+  <text x="72" y="92" fill="#a5c4ff" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" font-weight="700">VOrbit ASMR  ·  新手入门</text>
+  <text x="72" y="170" fill="#ffffff" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="62" font-weight="800">先让声音响起来</text>
+  <text x="72" y="225" fill="#d9e6ff" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="29">戴上耳机，按以下顺序操作</text>
+  <rect x="70" y="305" width="1060" height="715" rx="26" fill="#ffffff" stroke="#d9e1f2" stroke-width="2"/>
+  <text x="110" y="360" fill="#244ab7" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" font-weight="800">首先：确认声音和位置</text>
+  <circle cx="135" cy="435" r="29" fill="#315ee0"/><text x="135" y="446" text-anchor="middle" fill="white" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="30" font-weight="800">1</text>
+  <text x="190" y="430" fill="#14223f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="36" font-weight="700">在“设备”中选择“普通”</text>
+  <text x="190" y="475" fill="#41526f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27">输入设备选麦克风，输出设备选耳机</text>
+  <path d="M135 490v36" stroke="#9cb3e8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="560" r="29" fill="#315ee0"/><text x="135" y="571" text-anchor="middle" fill="white" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="30" font-weight="800">2</text>
+  <text x="190" y="556" fill="#14223f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="36" font-weight="700">按“开始”并说话</text>
+  <text x="190" y="601" fill="#41526f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27">确认输入和左右输出电平表在动</text>
+  <path d="M135 615v36" stroke="#9cb3e8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="685" r="29" fill="#315ee0"/><text x="135" y="696" text-anchor="middle" fill="white" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="30" font-weight="800">3</text>
+  <text x="190" y="681" fill="#14223f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="36" font-weight="700">在“手动”中移动声音</text>
+  <text x="190" y="726" fill="#41526f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27">在位置面板上左右拖动红点</text>
+  <rect x="190" y="766" width="895" height="196" rx="20" fill="#edf3ff"/>
+  <text x="222" y="817" fill="#244ab7" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="26" font-weight="700">到这里，基本设置就完成了</text>
+  <text x="222" y="866" fill="#273955" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27">用耳机听听声音的位置是否在移动。</text>
+  <text x="222" y="916" fill="#52627b" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24">使用 DAW？请参阅 VST 桥接的说明页。</text>
+  <rect x="70" y="1055" width="1060" height="415" rx="26" fill="#ffffff" stroke="#d9e1f2" stroke-width="2"/>
+  <text x="110" y="1115" fill="#0b7b73" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="29" font-weight="800">仅在需要自动追踪时继续</text>
+  <circle cx="135" cy="1193" r="29" fill="#118a81"/><text x="135" y="1204" text-anchor="middle" fill="white" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="30" font-weight="800">4</text>
+  <text x="190" y="1188" fill="#14223f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" font-weight="700">在“自动追踪”中连接</text>
+  <text x="190" y="1233" fill="#41526f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="26">选择输入源，按“连接”，先只设置左右</text>
+  <path d="M135 1248v34" stroke="#9bcfca" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="1315" r="29" fill="#118a81"/><text x="135" y="1326" text-anchor="middle" fill="white" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="30" font-weight="800">5</text>
+  <text x="190" y="1310" fill="#14223f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" font-weight="700">校准中心和动作范围</text>
+  <text x="190" y="1355" fill="#41526f" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="26">正面记录中心，左右移动测量，确认“已校准”</text>
+  <text x="72" y="1535" fill="#52627b" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="23">详细操作、VST 桥接和故障排查，请继续阅读本页正文。</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">VOrbit ASMR 快速上手</title>
+  <desc id="desc">戴上耳機，選擇「一般」音訊路徑和裝置，按「開始」並確認電平表。在「手動」模式下移動聲音。需要自動追蹤時，連接輸入來源並校準中心和動作範圍。</desc>
+  <rect width="1200" height="1600" fill="#f5f7fc"/>
+  <rect x="0" y="0" width="1200" height="270" fill="#15234a"/>
+  <text x="72" y="92" fill="#a5c4ff" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="27" font-weight="700">VOrbit ASMR  ·  新手入門</text>
+  <text x="72" y="170" fill="#ffffff" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="62" font-weight="800">先讓聲音響起來</text>
+  <text x="72" y="225" fill="#d9e6ff" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="29">戴上耳機，按以下順序操作</text>
+  <rect x="70" y="305" width="1060" height="715" rx="26" fill="#ffffff" stroke="#d9e1f2" stroke-width="2"/>
+  <text x="110" y="360" fill="#244ab7" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="27" font-weight="800">首先：確認聲音和位置</text>
+  <circle cx="135" cy="435" r="29" fill="#315ee0"/><text x="135" y="446" text-anchor="middle" fill="white" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="30" font-weight="800">1</text>
+  <text x="190" y="430" fill="#14223f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="36" font-weight="700">在「裝置」中選擇「一般」</text>
+  <text x="190" y="475" fill="#41526f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="27">輸入裝置選麥克風，輸出裝置選耳機</text>
+  <path d="M135 490v36" stroke="#9cb3e8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="560" r="29" fill="#315ee0"/><text x="135" y="571" text-anchor="middle" fill="white" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="30" font-weight="800">2</text>
+  <text x="190" y="556" fill="#14223f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="36" font-weight="700">按「開始」並說話</text>
+  <text x="190" y="601" fill="#41526f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="27">確認輸入和左右輸出電平表在動</text>
+  <path d="M135 615v36" stroke="#9cb3e8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="685" r="29" fill="#315ee0"/><text x="135" y="696" text-anchor="middle" fill="white" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="30" font-weight="800">3</text>
+  <text x="190" y="681" fill="#14223f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="36" font-weight="700">在「手動」中移動聲音</text>
+  <text x="190" y="726" fill="#41526f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="27">在位置面板上左右拖曳紅點</text>
+  <rect x="190" y="766" width="895" height="196" rx="20" fill="#edf3ff"/>
+  <text x="222" y="817" fill="#244ab7" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="26" font-weight="700">到這裡，基本設定就完成了</text>
+  <text x="222" y="866" fill="#273955" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="27">用耳機聽聽聲音的位置是否在移動。</text>
+  <text x="222" y="916" fill="#52627b" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="24">使用 DAW？請參閱 VST 橋接的說明頁。</text>
+  <rect x="70" y="1055" width="1060" height="415" rx="26" fill="#ffffff" stroke="#d9e1f2" stroke-width="2"/>
+  <text x="110" y="1115" fill="#0b7b73" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="29" font-weight="800">僅在需要自動追蹤時繼續</text>
+  <circle cx="135" cy="1193" r="29" fill="#118a81"/><text x="135" y="1204" text-anchor="middle" fill="white" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="30" font-weight="800">4</text>
+  <text x="190" y="1188" fill="#14223f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="34" font-weight="700">在「自動追蹤」中連接</text>
+  <text x="190" y="1233" fill="#41526f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="26">選擇輸入來源，按「連接」，先只設定左右</text>
+  <path d="M135 1248v34" stroke="#9bcfca" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="1315" r="29" fill="#118a81"/><text x="135" y="1326" text-anchor="middle" fill="white" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="30" font-weight="800">5</text>
+  <text x="190" y="1310" fill="#14223f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="34" font-weight="700">校準中心和動作範圍</text>
+  <text x="190" y="1355" fill="#41526f" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="26">正面記錄中心，左右移動測量，確認「已校準」</text>
+  <text x="72" y="1535" fill="#52627b" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif" font-size="23">詳細操作、VST 橋接和疑難排解，請繼續閱讀本頁內文。</text>
+</svg>

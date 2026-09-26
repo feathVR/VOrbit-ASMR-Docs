@@ -39,7 +39,7 @@ The two pads on the Position tab show horizontal and vertical position (left) an
 
 With **View range** set to **Auto**, the pad scale follows how far the voice can actually travel with your current axes and settings. Set it to **Manual** to choose the distance from the centre to the edge yourself.
 
-## Show a dummy head mic on stream
+## Show a dummy head mic on stream {#dummy-head-overlay}
 
 Enable **Show a dummy head mic on stream** to place a dummy head microphone image inside the connected application (VTube Studio / nizima LIVE).
 

@@ -32,4 +32,4 @@ With the audio route set to **DAW (VST bridge)**, the processed voice comes out 
 
 ## Show the dummy head image (optional)
 
-You can also show a dummy head microphone image on stream. Enable **Show a dummy head mic on stream** on the Position tab, then adjust its size and position in VTube Studio or nizima LIVE. See [How the source moves](../spatial/overview#show-a-dummy-head-mic-on-stream).
+You can also show a dummy head microphone image on stream. Enable **Show a dummy head mic on stream** on the Position tab, then adjust its size and position in VTube Studio or nizima LIVE. See [How the source moves](../spatial/overview#dummy-head-overlay).

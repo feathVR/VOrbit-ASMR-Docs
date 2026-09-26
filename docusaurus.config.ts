@@ -1,12 +1,21 @@
 import type {Config} from '@docusaurus/types';
 
+// 言語ごとのサイト名と説明。既定（ja）以外は DOCUSAURUS_CURRENT_LOCALE で選ぶ
+const siteText: Record<string, {title: string; tagline: string}> = {
+  ja: {title: 'VOrbit ASMR 操作ガイド', tagline: '導入からトラッキング、空間音響の設定まで'},
+  en: {title: 'VOrbit ASMR User Guide', tagline: 'Setup, tracking, and spatial audio'},
+  'zh-Hans': {title: 'VOrbit ASMR 使用指南', tagline: '从安装到追踪与空间音频设置'},
+  'zh-Hant': {title: 'VOrbit ASMR 使用指南', tagline: '從安裝到追蹤與空間音訊設定'},
+  ko: {title: 'VOrbit ASMR 사용 가이드', tagline: '설치부터 트래킹, 공간 음향 설정까지'},
+  ru: {title: 'Руководство VOrbit ASMR', tagline: 'Установка, трекинг и пространственный звук'},
+  es: {title: 'Guía de VOrbit ASMR', tagline: 'Instalación, seguimiento y audio espacial'},
+  'pt-BR': {title: 'Guia do VOrbit ASMR', tagline: 'Instalação, rastreamento e áudio espacial'},
+};
+const text = siteText[process.env.DOCUSAURUS_CURRENT_LOCALE ?? 'ja'] ?? siteText.ja;
+
 const config: Config = {
-  title: process.env.DOCUSAURUS_CURRENT_LOCALE === 'en'
-    ? 'VOrbit ASMR User Guide'
-    : 'VOrbit ASMR 操作ガイド',
-  tagline: process.env.DOCUSAURUS_CURRENT_LOCALE === 'en'
-    ? 'Setup, tracking, and spatial audio'
-    : '導入からトラッキング、空間音響の設定まで',
+  title: text.title,
+  tagline: text.tagline,
   favicon: 'img/favicon.svg',
   url: 'https://feathvr.github.io',
   baseUrl: '/VOrbit-ASMR-Docs/',
@@ -15,10 +24,16 @@ const config: Config = {
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'ja',
-    locales: ['ja', 'en'],
+    locales: ['ja', 'en', 'zh-Hans', 'zh-Hant', 'ko', 'ru', 'es', 'pt-BR'],
     localeConfigs: {
       ja: {label: '日本語', htmlLang: 'ja-JP'},
       en: {label: 'English', htmlLang: 'en-US'},
+      'zh-Hans': {label: '简体中文', htmlLang: 'zh-CN'},
+      'zh-Hant': {label: '繁體中文', htmlLang: 'zh-TW'},
+      ko: {label: '한국어', htmlLang: 'ko-KR'},
+      ru: {label: 'Русский', htmlLang: 'ru-RU'},
+      es: {label: 'Español', htmlLang: 'es'},
+      'pt-BR': {label: 'Português (Brasil)', htmlLang: 'pt-BR'},
     },
   },
   presets: [

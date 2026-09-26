@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "目前版本",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.はじめに": {
+    "message": "入門",
+    "description": "The label for category 'はじめに' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.音声経路": {
+    "message": "音訊路徑",
+    "description": "The label for category '音声経路' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.トラッキング": {
+    "message": "追蹤",
+    "description": "The label for category 'トラッキング' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.空間音響": {
+    "message": "空間音訊",
+    "description": "The label for category '空間音響' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.配信とコラボ": {
+    "message": "直播與連動",
+    "description": "The label for category '配信とコラボ' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.そのほかの機能": {
+    "message": "其他功能",
+    "description": "The label for category 'そのほかの機能' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.困ったとき": {
+    "message": "疑難排解",
+    "description": "The label for category '困ったとき' in sidebar 'docs'"
+  }
+}

@@ -61,6 +61,6 @@ In either case, assign only the horizontal axis at first and leave vertical and 
 
 Enable VMC output in Warudo, then select **VMC Protocol** as the tracking source in VOrbit ASMR and connect.
 
-## Letting another application receive VMC too
+## Letting another application receive VMC too {#vmc-forwarding}
 
 Once VOrbit ASMR receives VMC data on a port, other applications can no longer receive it on that port. If another application on the same PC also needs the data, enable **Forward received data to port** under **Connection details** and set the port to the one that application listens on.

@@ -1,0 +1,532 @@
+{
+  "fonts": {
+    "zh-Hans": "Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif",
+    "zh-Hant": "Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif",
+    "ko": "Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif",
+    "ru": "Arial, sans-serif",
+    "es": "Arial, sans-serif",
+    "pt-BR": "Arial, sans-serif"
+  },
+  "strings": {
+    "VOrbit ASMR quick start": {
+      "zh-Hans": "VOrbit ASMR 快速上手",
+      "zh-Hant": "VOrbit ASMR 快速上手",
+      "ko": "VOrbit ASMR 빠른 시작",
+      "ru": "Быстрый старт VOrbit ASMR",
+      "es": "Inicio rápido de VOrbit ASMR",
+      "pt-BR": "Início rápido do VOrbit ASMR"
+    },
+    "Use headphones, choose the Normal audio route and devices, press Start and check the meters. Move the voice in Manual mode. For automatic tracking, connect a source and calibrate the center and movement range.": {
+      "zh-Hans": "戴上耳机，选择“普通”音频路径和设备，按“开始”并确认电平表。在“手动”模式下移动声音。需要自动追踪时，连接输入源并校准中心和动作范围。",
+      "zh-Hant": "戴上耳機，選擇「一般」音訊路徑和裝置，按「開始」並確認電平表。在「手動」模式下移動聲音。需要自動追蹤時，連接輸入來源並校準中心和動作範圍。",
+      "ko": "헤드폰을 쓰고 ‘일반’ 오디오 경로와 장치를 선택한 뒤 ‘시작’을 눌러 미터를 확인합니다. ‘수동’ 모드에서 목소리를 움직입니다. 자동 트래킹을 쓰려면 소스를 연결하고 중앙과 동작 범위를 보정합니다.",
+      "ru": "Наденьте наушники, выберите аудиомаршрут «Обычный» и устройства, нажмите «Старт» и проверьте индикаторы. Подвигайте голос в ручном режиме. Для автоматического трекинга подключите источник и откалибруйте центр и диапазон движений.",
+      "es": "Ponte auriculares, elige la ruta de audio Normal y los dispositivos, pulsa Iniciar y revisa los medidores. Mueve la voz en modo Manual. Para el seguimiento automático, conecta una fuente y calibra el centro y el rango de movimiento.",
+      "pt-BR": "Use fones de ouvido, escolha a rota de áudio Normal e os dispositivos, pressione Iniciar e confira os medidores. Mova a voz no modo Manual. Para rastreamento automático, conecte uma fonte e calibre o centro e a amplitude de movimento."
+    },
+    "VOrbit ASMR  ·  FIRST STEPS": {
+      "zh-Hans": "VOrbit ASMR  ·  新手入门",
+      "zh-Hant": "VOrbit ASMR  ·  新手入門",
+      "ko": "VOrbit ASMR  ·  처음 시작하기",
+      "ru": "VOrbit ASMR  ·  ПЕРВЫЕ ШАГИ",
+      "es": "VOrbit ASMR  ·  PRIMEROS PASOS",
+      "pt-BR": "VOrbit ASMR  ·  PRIMEIROS PASSOS"
+    },
+    "Make your first sound": {
+      "zh-Hans": "先让声音响起来",
+      "zh-Hant": "先讓聲音響起來",
+      "ko": "첫 소리 내기",
+      "ru": "Первый звук",
+      "es": "Tu primer sonido",
+      "pt-BR": "Seu primeiro som"
+    },
+    "Put on headphones and follow these steps": {
+      "zh-Hans": "戴上耳机，按以下顺序操作",
+      "zh-Hant": "戴上耳機，按以下順序操作",
+      "ko": "헤드폰을 쓰고 순서대로 따라 하세요",
+      "ru": "Наденьте наушники и выполните шаги по порядку",
+      "es": "Ponte auriculares y sigue estos pasos",
+      "pt-BR": "Coloque fones de ouvido e siga estes passos"
+    },
+    "FIRST: CHECK SOUND AND POSITION": {
+      "zh-Hans": "首先：确认声音和位置",
+      "zh-Hant": "首先：確認聲音和位置",
+      "ko": "먼저: 소리와 위치 확인",
+      "ru": "СНАЧАЛА: ЗВУК И ПОЗИЦИЯ",
+      "es": "PRIMERO: SONIDO Y POSICIÓN",
+      "pt-BR": "PRIMEIRO: SOM E POSIÇÃO"
+    },
+    "Choose Normal on Devices": {
+      "zh-Hans": "在“设备”中选择“普通”",
+      "zh-Hant": "在「裝置」中選擇「一般」",
+      "ko": "‘장치’에서 ‘일반’ 선택",
+      "ru": "«Устройства» → «Обычный»",
+      "es": "Elige Normal en Dispositivos",
+      "pt-BR": "Escolha Normal em Dispositivos"
+    },
+    "Set your microphone as Input, headphones as Output": {
+      "zh-Hans": "输入设备选麦克风，输出设备选耳机",
+      "zh-Hant": "輸入裝置選麥克風，輸出裝置選耳機",
+      "ko": "입력 장치는 마이크, 출력 장치는 헤드폰",
+      "ru": "Ввод — микрофон, вывод — наушники",
+      "es": "Entrada: micrófono. Salida: auriculares",
+      "pt-BR": "Entrada: microfone. Saída: fones"
+    },
+    "Press Start and speak": {
+      "zh-Hans": "按“开始”并说话",
+      "zh-Hant": "按「開始」並說話",
+      "ko": "‘시작’을 누르고 말하기",
+      "ru": "Нажмите «Старт» и говорите",
+      "es": "Pulsa Iniciar y habla",
+      "pt-BR": "Pressione Iniciar e fale"
+    },
+    "Check the input and left/right output meters": {
+      "zh-Hans": "确认输入和左右输出电平表在动",
+      "zh-Hant": "確認輸入和左右輸出電平表在動",
+      "ko": "입력 미터와 좌우 출력 미터가 움직이는지 확인",
+      "ru": "Проверьте индикаторы входа и выхода L/R",
+      "es": "Revisa los medidores de entrada y salida I/D",
+      "pt-BR": "Confira os medidores de entrada e saída E/D"
+    },
+    "Move your voice in Manual": {
+      "zh-Hans": "在“手动”中移动声音",
+      "zh-Hant": "在「手動」中移動聲音",
+      "ko": "‘수동’에서 목소리 움직이기",
+      "ru": "Подвигайте голос вручную",
+      "es": "Mueve tu voz en Manual",
+      "pt-BR": "Mova sua voz no Manual"
+    },
+    "Drag the red dot left and right on the position pad": {
+      "zh-Hans": "在位置面板上左右拖动红点",
+      "zh-Hant": "在位置面板上左右拖曳紅點",
+      "ko": "위치 패드의 빨간 점을 좌우로 드래그",
+      "ru": "Перетаскивайте красную точку влево и вправо",
+      "es": "Arrastra el punto rojo a izquierda y derecha",
+      "pt-BR": "Arraste o ponto vermelho para os lados"
+    },
+    "Your basic sound setup is done": {
+      "zh-Hans": "到这里，基本设置就完成了",
+      "zh-Hant": "到這裡，基本設定就完成了",
+      "ko": "여기까지 되면 기본 설정 완료",
+      "ru": "Базовая настройка готова",
+      "es": "La configuración básica está lista",
+      "pt-BR": "A configuração básica está pronta"
+    },
+    "Listen for your voice moving in your headphones.": {
+      "zh-Hans": "用耳机听听声音的位置是否在移动。",
+      "zh-Hant": "用耳機聽聽聲音的位置是否在移動。",
+      "ko": "헤드폰에서 목소리 위치가 움직이는지 들어 보세요.",
+      "ru": "Послушайте, как голос движется в наушниках.",
+      "es": "Escucha cómo se mueve tu voz en los auriculares.",
+      "pt-BR": "Ouça sua voz se mover nos fones."
+    },
+    "Using a DAW? See the separate VST bridge guide.": {
+      "zh-Hans": "使用 DAW？请参阅 VST 桥接的说明页。",
+      "zh-Hant": "使用 DAW？請參閱 VST 橋接的說明頁。",
+      "ko": "DAW를 쓴다면 VST 브리지 안내를 참고하세요.",
+      "ru": "Работаете в DAW? См. раздел о VST-мосте.",
+      "es": "¿Usas un DAW? Consulta la guía del puente VST.",
+      "pt-BR": "Usa uma DAW? Veja o guia da ponte VST."
+    },
+    "ONLY IF YOU WANT AUTOMATIC TRACKING": {
+      "zh-Hans": "仅在需要自动追踪时继续",
+      "zh-Hant": "僅在需要自動追蹤時繼續",
+      "ko": "자동 트래킹을 쓸 때만 계속",
+      "ru": "ТОЛЬКО ДЛЯ АВТОМАТИЧЕСКОГО ТРЕКИНГА",
+      "es": "SOLO SI QUIERES SEGUIMIENTO AUTOMÁTICO",
+      "pt-BR": "SÓ SE QUISER RASTREAMENTO AUTOMÁTICO"
+    },
+    "Connect tracking in Auto": {
+      "zh-Hans": "在“自动追踪”中连接",
+      "zh-Hant": "在「自動追蹤」中連接",
+      "ko": "‘자동’에서 트래킹 연결",
+      "ru": "Подключите трекинг в «Авто»",
+      "es": "Conecta el seguimiento en Automático",
+      "pt-BR": "Conecte o rastreamento no Automático"
+    },
+    "Choose a source, press Connect, assign X only": {
+      "zh-Hans": "选择输入源，按“连接”，先只设置左右",
+      "zh-Hant": "選擇輸入來源，按「連接」，先只設定左右",
+      "ko": "소스를 고르고 ‘연결’, 처음엔 좌우만 설정",
+      "ru": "Источник → «Подключить», только горизонталь",
+      "es": "Elige la fuente, Conectar, solo horizontal",
+      "pt-BR": "Escolha a fonte, Conectar, só horizontal"
+    },
+    "Calibrate center and range": {
+      "zh-Hans": "校准中心和动作范围",
+      "zh-Hant": "校準中心和動作範圍",
+      "ko": "중앙과 동작 범위 보정",
+      "ru": "Откалибруйте центр и диапазон",
+      "es": "Calibra el centro y el rango",
+      "pt-BR": "Calibre o centro e a amplitude"
+    },
+    "Face front, then move left/right; check Calibrated": {
+      "zh-Hans": "正面记录中心，左右移动测量，确认“已校准”",
+      "zh-Hant": "正面記錄中心，左右移動測量，確認「已校準」",
+      "ko": "정면에서 중앙 기록, 좌우로 측정, ‘보정 완료’ 확인",
+      "ru": "Центр, затем движения; «Откалибровано»",
+      "es": "Centro, luego muévete; verifica Calibrado",
+      "pt-BR": "Centro, depois mova-se; veja Calibrado"
+    },
+    "For detailed controls, VST bridge, and troubleshooting, continue below.": {
+      "zh-Hans": "详细操作、VST 桥接和故障排查，请继续阅读本页正文。",
+      "zh-Hant": "詳細操作、VST 橋接和疑難排解，請繼續閱讀本頁內文。",
+      "ko": "자세한 조작, VST 브리지, 문제 해결은 아래 본문을 참고하세요.",
+      "ru": "Подробности, VST-мост и решение проблем — ниже на странице.",
+      "es": "Más detalles, el puente VST y la solución de problemas, abajo.",
+      "pt-BR": "Detalhes, ponte VST e solução de problemas estão abaixo."
+    },
+    "Calibration in four steps": {
+      "zh-Hans": "四步完成校准",
+      "zh-Hant": "四步完成校準",
+      "ko": "4단계 보정",
+      "ru": "Калибровка в четыре шага",
+      "es": "Calibración en cuatro pasos",
+      "pt-BR": "Calibração em quatro passos"
+    },
+    "Assign X only, capture center while facing front, measure movement range while moving left and right, stop measuring and confirm Calibrated.": {
+      "zh-Hans": "只设置左右轴，面向正面记录中心，左右移动测量动作范围，结束测量并确认“已校准”。",
+      "zh-Hant": "只設定左右軸，面向正面記錄中心，左右移動測量動作範圍，結束測量並確認「已校準」。",
+      "ko": "좌우 축만 설정하고, 정면에서 중앙을 기록하고, 좌우로 움직이며 동작 범위를 측정한 뒤, 측정을 끝내고 ‘보정 완료’를 확인합니다.",
+      "ru": "Назначьте только горизонталь, запишите центр лицом вперёд, измерьте диапазон движений влево и вправо, завершите измерение и проверьте «Откалибровано».",
+      "es": "Asigna solo el eje horizontal, registra el centro mirando al frente, mide el rango de movimiento moviéndote a izquierda y derecha, termina la medición y comprueba Calibrado.",
+      "pt-BR": "Atribua só o eixo horizontal, registre o centro olhando para a frente, meça a amplitude de movimento indo para os lados, termine a medição e confira Calibrado."
+    },
+    "Calibrate in this order": {
+      "zh-Hans": "按这个顺序校准",
+      "zh-Hant": "按這個順序校準",
+      "ko": "이 순서로 보정하세요",
+      "ru": "Калибруйте в таком порядке",
+      "es": "Calibra en este orden",
+      "pt-BR": "Calibre nesta ordem"
+    },
+    "Connect tracking first. Start with horizontal movement (X) only.": {
+      "zh-Hans": "先连接追踪。一开始只设置左右方向。",
+      "zh-Hant": "先連接追蹤。一開始只設定左右方向。",
+      "ko": "먼저 트래킹을 연결하세요. 처음엔 좌우 방향만 설정합니다.",
+      "ru": "Сначала подключите трекинг. Начните только с горизонтали.",
+      "es": "Conecta primero el seguimiento. Empieza solo con el eje horizontal.",
+      "pt-BR": "Conecte o rastreamento primeiro. Comece só com o eixo horizontal."
+    },
+    "Assign X": {
+      "zh-Hans": "设置左右",
+      "zh-Hant": "設定左右",
+      "ko": "좌우 설정",
+      "ru": "Горизонталь",
+      "es": "Horizontal",
+      "pt-BR": "Horizontal"
+    },
+    "Leave Y and Z": {
+      "zh-Hans": "上下和深度",
+      "zh-Hant": "上下和深度",
+      "ko": "상하와 깊이는",
+      "ru": "Остальные оси",
+      "es": "Vertical y",
+      "pt-BR": "Vertical e"
+    },
+    "set to “—”": {
+      "zh-Hans": "保持“—”",
+      "zh-Hant": "保持「—」",
+      "ko": "‘—’ 그대로",
+      "ru": "оставьте «—»",
+      "es": "profundidad: “—”",
+      "pt-BR": "profundidade: “—”"
+    },
+    "Face front": {
+      "zh-Hans": "面向正面",
+      "zh-Hant": "面向正面",
+      "ko": "정면 보기",
+      "ru": "Лицом вперёд",
+      "es": "Mira al frente",
+      "pt-BR": "Olhe à frente"
+    },
+    "Hold your usual pose": {
+      "zh-Hans": "保持平常的姿势",
+      "zh-Hant": "保持平常的姿勢",
+      "ko": "평소 자세로",
+      "ru": "Обычная поза",
+      "es": "Tu postura habitual",
+      "pt-BR": "Postura habitual"
+    },
+    "→ Capture center": {
+      "zh-Hans": "→“记录中心”",
+      "zh-Hant": "→「記錄中心」",
+      "ko": "→ ‘중앙 기록’",
+      "ru": "«Записать центр»",
+      "es": "→ Registrar centro",
+      "pt-BR": "→ Registrar centro"
+    },
+    "Move left/right": {
+      "zh-Hans": "左右移动",
+      "zh-Hant": "左右移動",
+      "ko": "좌우로 움직이기",
+      "ru": "Влево/вправо",
+      "es": "Muévete",
+      "pt-BR": "Mova-se"
+    },
+    "Measure range": {
+      "zh-Hans": "“测量动作范围”",
+      "zh-Hant": "「測量動作範圍」",
+      "ko": "‘동작 범위 측정’",
+      "ru": "Измерить диапазон",
+      "es": "Medir rango",
+      "pt-BR": "Medir amplitude"
+    },
+    "while moving slowly": {
+      "zh-Hans": "→ 慢慢左右移动",
+      "zh-Hant": "→ 慢慢左右移動",
+      "ko": "→ 천천히 좌우로",
+      "ru": "→ не спеша",
+      "es": "→ despacio",
+      "pt-BR": "→ devagar"
+    },
+    "Finish": {
+      "zh-Hans": "结束测量",
+      "zh-Hant": "結束測量",
+      "ko": "측정 끝내기",
+      "ru": "Завершите",
+      "es": "Termina",
+      "pt-BR": "Termine"
+    },
+    "Stop measuring": {
+      "zh-Hans": "“结束测量”",
+      "zh-Hant": "「結束測量」",
+      "ko": "‘측정 끝내기’",
+      "ru": "«Завершить»",
+      "es": "Terminar medición",
+      "pt-BR": "Terminar medição"
+    },
+    "→ Calibrated": {
+      "zh-Hans": "→“已校准”",
+      "zh-Hant": "→「已校準」",
+      "ko": "→ ‘보정 완료’",
+      "ru": "«Откалибровано»",
+      "es": "→ Calibrado",
+      "pt-BR": "→ Calibrado"
+    },
+    "Then move your avatar left/right and listen for your voice moving.": {
+      "zh-Hans": "完成后，左右移动虚拟形象，确认声音的位置随之移动。",
+      "zh-Hant": "完成後，左右移動虛擬形象，確認聲音的位置隨之移動。",
+      "ko": "완료되면 아바타를 좌우로 움직여 목소리 위치가 따라 움직이는지 확인하세요.",
+      "ru": "Затем подвигайте аватар влево и вправо и послушайте, как движется голос.",
+      "es": "Después mueve tu avatar a los lados y escucha cómo se mueve tu voz.",
+      "pt-BR": "Depois mova o avatar para os lados e ouça sua voz se mover."
+    },
+    "Orbit and Cartesian movement": {
+      "zh-Hans": "围绕头部转动与平面移动",
+      "zh-Hant": "繞著頭部轉動與平面移動",
+      "ko": "머리 주위 회전과 평면 이동",
+      "ru": "Движение вокруг головы и по плоскости",
+      "es": "Órbita y movimiento en plano",
+      "pt-BR": "Órbita e movimento no plano"
+    },
+    "Conceptual top view. On the left the voice follows an arc around the listener; on the right it moves along a straight line.": {
+      "zh-Hans": "从上方看的示意图。左侧声音沿听者周围的弧线移动，右侧沿直线移动。",
+      "zh-Hant": "從上方看的示意圖。左側聲音沿聽者周圍的弧線移動，右側沿直線移動。",
+      "ko": "위에서 본 개념도. 왼쪽은 목소리가 청취자 주위의 호를 따라, 오른쪽은 직선을 따라 움직입니다.",
+      "ru": "Схема, вид сверху. Слева голос движется по дуге вокруг слушателя, справа — по прямой.",
+      "es": "Vista superior conceptual. A la izquierda la voz sigue un arco alrededor del oyente; a la derecha, una línea recta.",
+      "pt-BR": "Vista superior conceitual. À esquerda a voz segue um arco ao redor do ouvinte; à direita, uma linha reta."
+    },
+    "Two ways a voice can move": {
+      "zh-Hans": "声音的两种移动方式",
+      "zh-Hant": "聲音的兩種移動方式",
+      "ko": "목소리가 움직이는 두 가지 방식",
+      "ru": "Два способа движения голоса",
+      "es": "Dos formas de mover la voz",
+      "pt-BR": "Duas formas de mover a voz"
+    },
+    "Conceptual top view · horizontal (X-axis) movement": {
+      "zh-Hans": "从上方看的示意图 · 左右方向的移动",
+      "zh-Hant": "從上方看的示意圖 · 左右方向的移動",
+      "ko": "위에서 본 개념도 · 좌우 방향 움직임",
+      "ru": "Схема, вид сверху · движение по горизонтали",
+      "es": "Vista superior conceptual · movimiento horizontal",
+      "pt-BR": "Vista superior conceitual · movimento horizontal"
+    },
+    "Orbit around the head": {
+      "zh-Hans": "围绕头部转动",
+      "zh-Hant": "繞著頭部轉動",
+      "ko": "머리 주위를 돌기",
+      "ru": "Вокруг головы",
+      "es": "Órbita alrededor de la cabeza",
+      "pt-BR": "Órbita ao redor da cabeça"
+    },
+    "Cartesian movement": {
+      "zh-Hans": "平面移动",
+      "zh-Hant": "平面移動",
+      "ko": "평면 이동",
+      "ru": "По плоскости",
+      "es": "Movimiento en plano",
+      "pt-BR": "Movimento no plano"
+    },
+    "YOU": {
+      "zh-Hans": "听者",
+      "zh-Hant": "聽者",
+      "ko": "청취자",
+      "ru": "ВЫ",
+      "es": "TÚ",
+      "pt-BR": "VOCÊ"
+    },
+    "Voice follows an arc": {
+      "zh-Hans": "声音沿弧线移动",
+      "zh-Hant": "聲音沿弧線移動",
+      "ko": "목소리가 호를 따라 이동",
+      "ru": "Голос движется по дуге",
+      "es": "La voz sigue un arco",
+      "pt-BR": "A voz segue um arco"
+    },
+    "Voice follows a line": {
+      "zh-Hans": "声音沿直线移动",
+      "zh-Hant": "聲音沿直線移動",
+      "ko": "목소리가 직선을 따라 이동",
+      "ru": "Голос движется по прямой",
+      "es": "La voz sigue una línea",
+      "pt-BR": "A voz segue uma linha"
+    },
+    "Audio flow from VST bridge to OBS": {
+      "zh-Hans": "从 VST 桥接到 OBS 的音频流向",
+      "zh-Hant": "從 VST 橋接到 OBS 的音訊流向",
+      "ko": "VST 브리지에서 OBS까지의 오디오 흐름",
+      "ru": "Путь звука от VST-моста до OBS",
+      "es": "Flujo de audio del puente VST a OBS",
+      "pt-BR": "Fluxo de áudio da ponte VST ao OBS"
+    },
+    "Audio goes from microphone through VOrbit Bridge on a DAW microphone track, then through DAW output to OBS. The plug-in exchanges audio with VOrbit ASMR below. Headphones monitor the DAW output separately.": {
+      "zh-Hans": "音频从麦克风经过 DAW 麦克风轨道上的 VOrbit Bridge，再经 DAW 输出进入 OBS。插件与下方的 VOrbit ASMR 往返传递音频。耳机另行监听 DAW 输出。",
+      "zh-Hant": "音訊從麥克風經過 DAW 麥克風音軌上的 VOrbit Bridge，再經 DAW 輸出進入 OBS。外掛與下方的 VOrbit ASMR 往返傳遞音訊。耳機另行監聽 DAW 輸出。",
+      "ko": "오디오는 마이크에서 DAW 마이크 트랙의 VOrbit Bridge를 거쳐 DAW 출력을 통해 OBS로 갑니다. 플러그인은 아래의 VOrbit ASMR과 오디오를 주고받습니다. 헤드폰은 DAW 출력을 따로 모니터링합니다.",
+      "ru": "Звук идёт от микрофона через VOrbit Bridge на дорожке микрофона в DAW, затем через выход DAW в OBS. Плагин обменивается звуком с VOrbit ASMR внизу. Наушники отдельно прослушивают выход DAW.",
+      "es": "El audio va del micrófono a VOrbit Bridge en una pista de micrófono del DAW y luego, por la salida del DAW, a OBS. El plugin intercambia audio con VOrbit ASMR, abajo. Los auriculares monitorean la salida del DAW por separado.",
+      "pt-BR": "O áudio vai do microfone ao VOrbit Bridge numa faixa de microfone da DAW e, pela saída da DAW, ao OBS. O plugin troca áudio com o VOrbit ASMR, abaixo. Os fones monitoram a saída da DAW separadamente."
+    },
+    "VORBIT ASMR  ·  VST BRIDGE": {
+      "zh-Hans": "VORBIT ASMR  ·  VST 桥接",
+      "zh-Hant": "VORBIT ASMR  ·  VST 橋接",
+      "ko": "VORBIT ASMR  ·  VST 브리지",
+      "ru": "VORBIT ASMR  ·  VST-МОСТ",
+      "es": "VORBIT ASMR  ·  PUENTE VST",
+      "pt-BR": "VORBIT ASMR  ·  PONTE VST"
+    },
+    "Shape your voice, then send it to OBS": {
+      "zh-Hans": "处理好声音，再送进 OBS",
+      "zh-Hant": "處理好聲音，再送進 OBS",
+      "ko": "목소리를 가공한 뒤 OBS로 보내기",
+      "ru": "Обработайте голос и отправьте его в OBS",
+      "es": "Procesa tu voz y envíala a OBS",
+      "pt-BR": "Processe sua voz e envie ao OBS"
+    },
+    "The audio path to your stream": {
+      "zh-Hans": "通往直播的音频路径",
+      "zh-Hant": "通往直播的音訊路徑",
+      "ko": "방송까지의 오디오 경로",
+      "ru": "Путь звука до трансляции",
+      "es": "El camino del audio hasta tu stream",
+      "pt-BR": "O caminho do áudio até a sua live"
+    },
+    "Microphone": {
+      "zh-Hans": "麦克风",
+      "zh-Hant": "麥克風",
+      "ko": "마이크",
+      "ru": "Микрофон",
+      "es": "Micrófono",
+      "pt-BR": "Microfone"
+    },
+    "DAW microphone track": {
+      "zh-Hans": "DAW 麦克风轨道",
+      "zh-Hant": "DAW 麥克風音軌",
+      "ko": "DAW 마이크 트랙",
+      "ru": "Дорожка микрофона в DAW",
+      "es": "Pista de micrófono del DAW",
+      "pt-BR": "Faixa de microfone da DAW"
+    },
+    "Insert the plug-in here": {
+      "zh-Hans": "在这里插入插件",
+      "zh-Hant": "在這裡插入外掛",
+      "ko": "여기에 플러그인 삽입",
+      "ru": "Вставьте плагин сюда",
+      "es": "Inserta aquí el plugin",
+      "pt-BR": "Insira o plugin aqui"
+    },
+    "DAW output": {
+      "zh-Hans": "DAW 输出",
+      "zh-Hant": "DAW 輸出",
+      "ko": "DAW 출력",
+      "ru": "Выход DAW",
+      "es": "Salida DAW",
+      "pt-BR": "Saída da DAW"
+    },
+    "Processed stereo audio": {
+      "zh-Hans": "处理后的立体声",
+      "zh-Hant": "處理後的立體聲",
+      "ko": "가공된 스테레오 오디오",
+      "ru": "Обработанное стерео",
+      "es": "Audio estéreo procesado",
+      "pt-BR": "Estéreo processado"
+    },
+    "Stream / record": {
+      "zh-Hans": "直播 / 录制",
+      "zh-Hant": "直播 / 錄製",
+      "ko": "방송 / 녹화",
+      "ru": "Трансляция / запись",
+      "es": "Stream / grabación",
+      "pt-BR": "Live / gravação"
+    },
+    "Spatializes your voice": {
+      "zh-Hans": "对声音进行空间化",
+      "zh-Hant": "對聲音進行空間化",
+      "ko": "목소리를 공간화",
+      "ru": "Пространственная обработка",
+      "es": "Espacializa tu voz",
+      "pt-BR": "Espacializa sua voz"
+    },
+    "Send voice": {
+      "zh-Hans": "发送声音",
+      "zh-Hant": "傳送聲音",
+      "ko": "목소리 보내기",
+      "ru": "Голос",
+      "es": "Enviar voz",
+      "pt-BR": "Enviar voz"
+    },
+    "↑ Return processed audio": {
+      "zh-Hans": "↑ 返回处理后的音频",
+      "zh-Hant": "↑ 傳回處理後的音訊",
+      "ko": "↑ 가공된 오디오 반환",
+      "ru": "↑ Обработанный звук",
+      "es": "↑ Devuelve el audio procesado",
+      "pt-BR": "↑ Devolve o áudio processado"
+    },
+    "Headphones": {
+      "zh-Hans": "耳机",
+      "zh-Hant": "耳機",
+      "ko": "헤드폰",
+      "ru": "Наушники",
+      "es": "Auriculares",
+      "pt-BR": "Fones"
+    },
+    "Monitoring only": {
+      "zh-Hans": "仅用于监听",
+      "zh-Hant": "僅用於監聽",
+      "ko": "모니터링 전용",
+      "ru": "Только прослушивание",
+      "es": "Solo monitoreo",
+      "pt-BR": "Só monitoramento"
+    },
+    "Configure OBS capture separately": {
+      "zh-Hans": "OBS 的采集需另行设置",
+      "zh-Hant": "OBS 的擷取需另行設定",
+      "ko": "OBS 캡처는 따로 설정",
+      "ru": "Захват в OBS настраивается отдельно",
+      "es": "Configura aparte la captura en OBS",
+      "pt-BR": "Configure a captura no OBS à parte"
+    },
+    "How your DAW sends processed audio to OBS depends on your DAW and audio devices.": {
+      "zh-Hans": "DAW 如何把处理后的音频送到 OBS，取决于所用的 DAW 和音频设备。",
+      "zh-Hant": "DAW 如何把處理後的音訊送到 OBS，取決於所用的 DAW 和音訊裝置。",
+      "ko": "DAW가 가공된 오디오를 OBS로 보내는 방법은 DAW와 오디오 장치에 따라 다릅니다.",
+      "ru": "Как DAW передаёт обработанный звук в OBS, зависит от DAW и аудиоустройств.",
+      "es": "Cómo envía tu DAW el audio procesado a OBS depende del DAW y de tus dispositivos.",
+      "pt-BR": "Como a DAW envia o áudio processado ao OBS depende da DAW e dos dispositivos."
+    }
+  }
+}
