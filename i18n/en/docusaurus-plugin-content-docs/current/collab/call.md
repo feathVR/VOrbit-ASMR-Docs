@@ -4,13 +4,37 @@ sidebar_position: 1
 
 # Collab calls
 
-Call a remote partner one-to-one and perform ASMR together without losing the spatial audio. You connect by exchanging one invite code and one answer code; no dedicated account is required.
+Send stereo ASMR audio to remote partners. Connection steps depend on the call mode and edition.
+
+![The Collab page](/img/screenshots/en/collab-en.png)
+
+_Current app screen. Available features depend on the distribution._
+
+## Call modes and editions {#call-modes}
+
+The current source includes **Low latency** and **Stable call** on the Collab page. Both use 48 kHz stereo Opus audio. These new modes are in development: public distribution integration and real calls between separate PCs are not yet fully verified. Availability depends on the edition you received.
+
+| Mode | Requirements and behavior |
+| --- | --- |
+| **Low latency** | Requires Steam running, the integration components and ownership. Up to four people including yourself. The room ends when its host leaves. |
+| **Stable call** | Stereo calls through a server configured by the distributor. Capacity depends on that server. The current receiver buffers about 200 ms before playback, increasing delay. Unavailable in editions without a configured server. |
+
+### Connecting with the new modes
+
+1. Everyone selects input/output and starts audio processing. Connect the DAW first when using VST Bridge.
+2. Choose the same call mode. It cannot be changed while creating an invitation, connecting or in a call.
+3. The host creates an invitation and shares it privately with participants. Participants paste it and connect. These modes do not require returning a response code.
+4. Use **Copy room invitation** for additional participants. Disconnect to leave. Automatic recovery after a dropped connection is not implemented yet.
+
+The free edition cannot create rooms or issue codes; it can only join a compatible stable-call room. It cannot join the product edition's low-latency room. Free-edition distribution and access configuration are also pending public-release work. Codes from the two modes are incompatible. A delay or loss display of “—” means unmeasured, not zero.
+
+## Legacy one-to-one calls {#legacy-call}
+
+The instructions below apply to editions that exchange an invitation and a response code. They differ from the new modes.
 
 ![How a Collab call connects](/img/screenshots/en/help-collab-en.png)
 
-_"Start a Collab call with a remote partner" on the Help tab. The inviter sends an invite code and the invited partner sends an answer code back._
-
-## Connecting
+_Legacy invitation/response exchange. The new modes are described above._
 
 1. **Both press Start**
    Both people first choose their microphone and output and press **Start** at the top. Headphones are recommended.
@@ -20,10 +44,6 @@ _"Start a Collab call with a remote partner" on the Help tab. The inviter sends 
    Paste the code under **Paste the code your partner sent you** and press **Connect**. An answer code is copied automatically; send it back to the inviter.
 4. **Paste the answer code (inviter)**
    Paste the answer code and press **Connect**. Setup is complete when both sides show **In call**.
-
-![The Collab page](/img/screenshots/en/collab-en.png)
-
-_The Collab page, with Create an invite code and a box for pasting your partner's code._
 
 :::warning An invite code is a key to the call
 Anyone with the invite code can join the call. Never post it in a public channel. If an attempt fails, create a fresh code instead of reusing it.
@@ -45,6 +65,4 @@ This setting cannot be changed while running.
 
 ## If it will not connect {#cannot-connect}
 
-- Confirm both people pressed Start, then retry from the beginning with a fresh invite code.
-- The call connects the two of you directly (P2P). Some combinations of networks that are hard to connect directly, such as both sides on mobile connections, cannot connect. Try a fixed-line or IPv6-capable connection on either side.
-- If a call drops, create a new invite code and reconnect.
+For low latency, check Steam, ownership, integration components, invitation and available places. If stable calls report no configured server, you need a supported distribution. Check that the new mode matches the code; cancel or disconnect before retrying. For legacy direct calls only, try a fixed connection or IPv6 if direct connection fails.

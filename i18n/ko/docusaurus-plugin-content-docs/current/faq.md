@@ -18,7 +18,7 @@ sidebar_position: 99
 
 ## Stream Deck 플러그인은 어디서 확인할 수 있나요?
 
-Stream Deck 플러그인은 앱 본체 및 이 가이드와 별개의 공개 프로젝트로 안내할 예정입니다. 공개 후 이 페이지에 링크하겠습니다.
+Stream Deck 플러그인은 앱에 동봉되어 있습니다. 설치 후 키에 동작을 배치하세요. [Stream Deck과 외부 조작](features/other#stream-deck)을 참조하세요.
 
 ## 문제를 신고하려면 어떻게 하나요?
 

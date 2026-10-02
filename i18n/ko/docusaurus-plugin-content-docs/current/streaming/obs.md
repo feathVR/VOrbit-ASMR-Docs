@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ![OBS로 보내는 방법 그림](/img/screenshots/ko/help-streaming-ko.png)
 
-_‘도움말’ 탭의 ‘OBS · 방송에 소리 싣기’. 방법 A와 방법 B 중 하나만 씁니다._
+_‘도움말’ 탭의 ‘OBS · 방송에 소리 싣기’. 보통 방법 A 또는 B를 사용하고, 실시간 내 목소리를 듣고 싶지 않다면 아래 VB-CABLE 단계를 사용하세요. 캡처 방법을 중복 사용하지 마세요._
 
 ## 방법 A: 응용 프로그램 오디오 캡처(권장)
 
@@ -17,6 +17,18 @@ OBS에서 ‘응용 프로그램 오디오 캡처’를 추가하고 VOrbit ASMR
 ## 방법 B: 오디오 출력 캡처
 
 VOrbit ASMR에서 헤드폰 등 출력 장치를 고르고, OBS에서 ‘오디오 출력 캡처’를 추가해 같은 장치를 고릅니다. 그 장치로 나가는 게임 소리나 알림음도 함께 들어갑니다.
+
+## 내 목소리를 듣지 않고 OBS로 보내기(VB-CABLE)
+
+OBS에는 녹음되지만 헤드폰으로 계속 돌아오는 내 목소리가 불편하다면 [VB-Audio Virtual Cable(VB-CABLE)](https://vb-audio.com/Cable/)로 출력 경로를 분리할 수 있습니다. 아래 단계는 ‘일반’ 오디오 경로에 적용됩니다. 처음 확인할 때만 내 목소리를 듣고 방송 중에는 모니터링하지 않아도 됩니다.
+
+1. 공식 사이트에서 VB-CABLE을 설치합니다. Windows에 재생 장치 **CABLE Input**과 녹음 장치 **CABLE Output**이 표시됩니다.
+2. VOrbit ASMR에서 ‘중지’를 누르고 ‘장치’의 출력을 **CABLE Input (VB-Audio Virtual Cable)**으로 바꾼 뒤 ‘시작’을 누릅니다. 마이크 입력은 그대로 둡니다. Windows 기본 재생 장치는 헤드폰으로 유지하고 CABLE Input을 기본 출력으로 설정하지 마세요.
+3. OBS에 ‘오디오 입력 캡처’를 하나만 추가하고 **CABLE Output (VB-Audio Virtual Cable)**을 선택합니다. 위의 방법 A 또는 B로 VOrbit ASMR을 동시에 캡처하지 마세요.
+4. OBS에서 이 소스의 오디오 모니터링을 끄고 Windows의 CABLE Output ‘이 장치로 듣기’도 끕니다. 켜져 있으면 목소리가 헤드폰으로 돌아올 수 있습니다.
+5. OBS 미터가 움직이는지 확인하고 짧게 시험 녹화합니다. 녹화에는 가공된 좌우 움직임이 들리고, 방송 중 헤드폰에는 실시간 내 목소리가 들리지 않아야 합니다.
+
+**CABLE Input은 VOrbit ASMR이 소리를 보내는 쪽이고, CABLE Output은 OBS가 받는 쪽입니다.** OBS 모니터링만 꺼서는 VOrbit ASMR이 헤드폰으로 직접 재생하는 소리가 멈추지 않습니다. 데스크톱 오디오나 가공 전 마이크도 중복 캡처하지 마세요.
 
 ## 짧게 녹화해 확인하기
 

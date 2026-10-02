@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ![送進 OBS 的方法圖](/img/screenshots/zh-Hant/help-streaming-zh-Hant.png)
 
-_「使用方法」分頁中的「把聲音送進 OBS 和直播」。方法 A 和方法 B 只用其中一種。_
+_「使用方法」分頁中的「把聲音送進 OBS 和直播」。通常只用方法 A 或 B；若不想聽到自己的即時聲音，請使用下方的 VB-CABLE 步驟。不要疊加擷取方法。_
 
 ## 方法 A：應用程式音訊擷取（推薦）
 
@@ -17,6 +17,18 @@ _「使用方法」分頁中的「把聲音送進 OBS 和直播」。方法 A �
 ## 方法 B：音訊輸出擷取
 
 在 VOrbit ASMR 中選擇耳機等輸出裝置，然後在 OBS 中新增「音訊輸出擷取」並選擇同一裝置。流向該裝置的遊戲聲音、提示音等也會一起被擷取。
+
+## 不在耳機聽到自己的聲音，同時送進 OBS（VB-CABLE）
+
+如果 OBS 錄得到聲音，但耳機持續傳回自己的聲音讓你不舒服，可以使用 [VB-Audio Virtual Cable（VB-CABLE）](https://vb-audio.com/Cable/)分開輸出。以下適用於「一般」音訊路徑；初次檢查時可以聽自己的聲音，直播時不必持續監聽。
+
+1. 從官方網站安裝 VB-CABLE。Windows 會出現播放裝置 **CABLE Input** 和錄音裝置 **CABLE Output**。
+2. 在 VOrbit ASMR 按「停止」，於「裝置」將輸出改為 **CABLE Input (VB-Audio Virtual Cable)**，再按「開始」。麥克風輸入保持不變。Windows 的預設播放裝置仍設為耳機，不要改成 CABLE Input。
+3. 在 OBS 只新增一個「音訊輸入擷取」，裝置選 **CABLE Output (VB-Audio Virtual Cable)**。不要再同時以方法 A 或 B 擷取 VOrbit ASMR。
+4. 關閉 OBS 對此來源的音訊監聽，也關閉 Windows 對 CABLE Output 的「聆聽此裝置」，否則聲音可能回到耳機。
+5. 確認 OBS 音量表有反應，錄製一小段並播放。錄影應有處理後的左右變化，使用時耳機則不應持續聽到自己的聲音。
+
+**CABLE Input 是 VOrbit ASMR 送入聲音的一端；CABLE Output 是 OBS 接收的一端。**只關閉 OBS 監聽無法阻止 VOrbit ASMR 直接向耳機播放。也請避免 OBS 從桌面音效或原始麥克風重複擷取。
 
 ## 錄一小段確認
 

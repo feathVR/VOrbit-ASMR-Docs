@@ -18,7 +18,7 @@ sidebar_position: 99
 
 ## 在哪里可以找到 Stream Deck 插件？
 
-Stream Deck 插件计划作为独立于应用本体和本指南的公开项目提供。公开后会在本页添加链接。
+Stream Deck 插件随应用提供。安装后把操作放到按键上。参阅 [Stream Deck 与外部控制](features/other#stream-deck)。
 
 ## 如何报告问题？
 

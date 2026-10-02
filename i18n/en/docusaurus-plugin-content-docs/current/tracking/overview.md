@@ -25,7 +25,7 @@ On the first connection only the horizontal axis is assigned; vertical and depth
 
 ![Control mode and tracking source](/img/screenshots/en/tracking-en.png)
 
-_Choose the tracking source under Auto (tracking) and press Connect._
+_Current app screen. Available features depend on the distribution._
 
 ## Allow the connection in that application
 

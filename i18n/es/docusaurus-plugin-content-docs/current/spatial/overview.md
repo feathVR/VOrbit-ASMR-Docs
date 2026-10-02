@@ -37,7 +37,9 @@ Desmarca **Órbita alrededor de la cabeza (recomendado)** para convertir los val
 
 Los dos paneles de la pestaña Posición muestran la posición horizontal y vertical (izquierda) y la horizontal y la profundidad (derecha). El punto rojo es tu voz (azul durante el seguimiento) y los círculos numerados son audios mono cargados en la pestaña **Audio**.
 
-Con **Rango de vista** en **Auto**, la escala del panel se ajusta a lo lejos que puede llegar la voz con tus ejes y ajustes actuales. En **Manual** eliges tú la distancia del centro al borde.
+Con **Rango de vista** en **Auto**, el seguimiento usa el alcance real de la voz según los ejes asignados y ajustes. En modo manual, se adapta al punto de voz o fuente más lejano con 5% de margen (mínimo 0.2 m). La vista frontal usa horizontal/vertical y la superior horizontal/profundidad de forma independiente. Cambiar solo la profundidad no reescala la frontal. **Manual** fija la distancia del centro al borde.
+
+Si el seguimiento, arrastre o control externo coloca la voz dentro de la cabeza o las orejas, se desplaza automáticamente al exterior. Las fuentes 1–4 no tienen esta restricción. Se aplica corrección de campo cercano cuando la voz se acerca a una oreja.
 
 ## Mostrar la cabeza artificial en el stream {#dummy-head-overlay}
 

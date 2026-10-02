@@ -13,7 +13,7 @@ VOrbit ASMR te permite elegir por dónde pasa el audio. Ninguna ruta suena mejor
 
 ![Ajustes de la pantalla Dispositivos](/img/screenshots/es/device-card-es.png)
 
-_La pantalla Dispositivos con Normal: ruta de audio, reducción de ruido, dispositivos de entrada y salida, modo anticortes y cómo llevarlo a tu stream._
+_Pantalla actual de la aplicación. Las funciones dependen de la distribución._
 
 ## Con Normal
 

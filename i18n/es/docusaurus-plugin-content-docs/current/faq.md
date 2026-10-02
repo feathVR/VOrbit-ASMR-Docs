@@ -18,7 +18,7 @@ Un eje en `—` se considera centrado. Los valores de calibración antiguos no a
 
 ## ¿Dónde encuentro el plugin de Stream Deck?
 
-El plugin de Stream Deck se publicará como un proyecto público separado de la aplicación y de esta guía. Esta página lo enlazará cuando esté disponible.
+El plugin Stream Deck viene con la aplicación. Instálalo y coloca acciones en las teclas. Consulta [Stream Deck y control externo](features/other#stream-deck).
 
 ## ¿Cómo reporto un problema?
 

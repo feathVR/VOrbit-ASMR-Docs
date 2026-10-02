@@ -25,7 +25,7 @@ En la primera conexión solo se asigna el eje horizontal; vertical y profundidad
 
 ![Modo de control y fuente de seguimiento](/img/screenshots/es/tracking-es.png)
 
-_Elige la fuente en Automático (seguimiento) y pulsa Conectar._
+_Pantalla actual de la aplicación. Las funciones dependen de la distribución._
 
 ## Permite la conexión en esa aplicación
 

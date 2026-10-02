@@ -27,7 +27,7 @@ Na primeira vez que você abre o aplicativo, a tela Dispositivos é aberta e o g
 
 ![O guia Primeiros passos](/img/screenshots/pt-BR/tutorial-pt-BR.png)
 
-_O guia Primeiros passos mostrando a primeira etapa, “Escolha o microfone e a saída”._
+_Tela atual do aplicativo. Os recursos dependem da distribuição._
 
 1. Escolha o microfone e a saída
 2. Ouça a mudança de posição
@@ -49,7 +49,7 @@ Para usar o VOrbit ASMR dentro de uma DAW, escolha **DAW (ponte VST)** e siga a 
 
 ![A tela Dispositivos](/img/screenshots/pt-BR/device-pt-BR.png)
 
-_A tela Dispositivos. Com Normal, o microfone e a saída são escolhidos aqui._
+_Tela atual do aplicativo. Os recursos dependem da distribuição._
 
 ### 2. Pressione Iniciar e faça um som
 
@@ -61,7 +61,7 @@ Na aba **Posição**, coloque **Modo de controle** em **Manual**. Sem parar o so
 
 ![A tela Posição no modo Manual](/img/screenshots/pt-BR/position-manual-pt-BR.png)
 
-_O painel da esquerda mostra a posição horizontal e vertical; o da direita, a horizontal e a profundidade. O ponto vermelho é sua voz._
+_Tela atual do aplicativo. Os recursos dependem da distribuição._
 
 ### 4. Mova a voz automaticamente (opcional)
 

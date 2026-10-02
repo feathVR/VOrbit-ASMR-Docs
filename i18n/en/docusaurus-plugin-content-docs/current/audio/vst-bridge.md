@@ -27,7 +27,7 @@ When you choose **DAW (VST bridge)** on the Devices tab, four steps appear under
 
 ![VST bridge setup screen](/img/screenshots/en/vst-bridge-en.png)
 
-_The application shows the source folder and the current connection state. The path in this image is a development example; your actual path depends on the installation location._
+_The bridge location shown is an example from the capture environment. Your actual path depends on the installation._
 
 ## DAW settings
 
@@ -48,3 +48,9 @@ Also copy **`VOrbit Bridge Multi.vst3`** from the same folder and load it as an 
 - To stop using it, delete your copy of `VOrbit Bridge.vst3` yourself; uninstalling the app does not remove it.
 
 If it does not connect, stop VOrbit ASMR, reselect the audio route, and rescan the plug-in in your DAW.
+
+## Separate outputs and reconnecting {#separate-outputs}
+
+Use VOrbit Bridge Multi alongside VOrbit Bridge. Outputs 1–2 carry your voice; 3–10 carry sources 1–4; 11–16 are stereo outputs for partners 1–3. In the current new call modes, the combined received audio goes to 11–12 and 13–16 are silent. Enable each output in the DAW and route it to separate recording tracks. These outputs are before the final mix's safety limiter, so manage their levels in the DAW.
+
+After closing/crashing the app or disconnecting, the bridge stays in passthrough to avoid unexpectedly restoring processed audio. Reconnect from the app or bridge. Only one bridge can connect at a time. Use online export or record playback; offline export and freezing remain passthrough.

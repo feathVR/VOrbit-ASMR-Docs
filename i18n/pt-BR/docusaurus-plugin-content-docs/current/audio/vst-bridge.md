@@ -27,7 +27,7 @@ Ao escolher **DAW (ponte VST)** na aba Dispositivos, quatro etapas aparecem em *
 
 ![Tela de configuração da ponte VST](/img/screenshots/pt-BR/vst-bridge-pt-BR.png)
 
-_O aplicativo também mostra a pasta de origem e o estado atual da conexão. O caminho na imagem é um exemplo de desenvolvimento; o seu depende do local de instalação._
+_O caminho da ponte é um exemplo do ambiente de captura. O seu depende da instalação._
 
 ## Configurações da DAW
 
@@ -48,3 +48,9 @@ Copie também o **`VOrbit Bridge Multi.vst3`** da mesma pasta e carregue-o como 
 - Para deixar de usar, apague você mesmo a sua cópia do `VOrbit Bridge.vst3`; desinstalar o aplicativo não a remove.
 
 Se não conectar, pare o VOrbit ASMR, escolha a rota de áudio de novo e faça uma nova varredura do plugin na DAW.
+
+## Saídas separadas e reconexão {#separate-outputs}
+
+Use VOrbit Bridge Multi junto com VOrbit Bridge. Saídas 1–2: sua voz; 3–10: fontes 1–4; 11–16: estéreo dos participantes 1–3. Nos novos modos atuais, a mistura recebida sai em 11–12, e 13–16 ficam silenciosos. Ative cada saída no DAW e encaminhe para faixas separadas. São anteriores ao limitador final: gerencie os níveis no DAW.
+
+Após fechar, falhar ou desconectar o aplicativo, a ponte mantém a passagem direta para evitar o retorno inesperado do áudio processado. Reconecte pelo aplicativo ou pela ponte. Só uma pode conectar por vez. Exporte em tempo real ou grave a reprodução; exportação offline e congelamento passam sem processamento.

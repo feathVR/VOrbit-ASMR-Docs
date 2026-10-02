@@ -13,7 +13,7 @@ VOrbit ASMR lets you choose how audio travels through it. Neither route sounds b
 
 ![Settings on the Devices page](/img/screenshots/en/device-card-en.png)
 
-_The Devices page with Normal selected: audio route, noise reduction, input and output devices, dropout protection, and getting the audio into your stream._
+_Current app screen. Available features depend on the distribution._
 
 ## With Normal
 

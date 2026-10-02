@@ -31,7 +31,7 @@ _当前版本的“位置”界面。用位置面板确认声音的移动，需�
 <div className="home-feature-grid">
   <div className="home-feature"><span className="home-feature__number">01</span><h3>让声音立体地移动</h3><p>随着左右方向的动作，声音沿弧线绕着听者的头部移动。</p></div>
   <div className="home-feature"><span className="home-feature__number">02</span><h3>可选择追踪方式</h3><p>支持 VTube Studio、nizima LIVE 和 VMC 协议。可以先只用左右方向确认。</p></div>
-  <div className="home-feature"><span className="home-feature__number">03</span><h3>与远方的对方联动</h3><p>一对一立体声通话，保持立体感与对方连接。</p></div>
+  <div className="home-feature"><span className="home-feature__number">03</span><h3>与远方的对方联动</h3><p>通过立体声通话向远程伙伴传送空间音频，可用方式取决于版本。</p></div>
 </div>
 
 ## 界面构成
@@ -41,10 +41,10 @@ _当前版本的“位置”界面。用位置面板确认声音的移动，需�
 | 标签 | 功能 |
 | --- | --- |
 | **位置** | 声音的位置面板、操作模式（自动追踪／手动）、连接追踪、校准、移动范围 |
-| **声音** | HRTF（头部相关传输函数）、房间混响、输出音量、空间化的开关 |
+| **声音** | HRTF、房间混响、捂耳、安全限制器、输出音量和空间化 |
 | **设备** | 音频路径（普通／DAW）、麦克风和输出设备、降噪、防掉音、如何接入直播 |
-| **联动** | 与远方对方的一对一通话 |
-| **音源** | 最多读取 4 个音频文件并播放 |
+| **联动** | 立体声联动通话（条件取决于方式和版本） |
+| **音源** | 音源 1–4：播放、暂停、预设、组合、位置和音量 |
 | **快捷键** | 用键盘调用各项操作 |
 | **使用方法** | 教程和按目的分类的步骤 |
 | **关于** | 版本、导出诊断 ZIP |
@@ -62,5 +62,7 @@ _当前版本的“位置”界面。用位置面板确认声音的移动，需�
 - [解决问题](troubleshooting/common-issues) — 掉音、没有声音、声音不动时
 
 :::info
+本指南反映当前源码功能。新通话方式仍在开发，公开版本可能尚未包含。
+
 VOrbit ASMR 应用本体与本文档分开发布。本使用指南公开提供，方便你在购买或安装前了解设置内容和使用方法。
 :::

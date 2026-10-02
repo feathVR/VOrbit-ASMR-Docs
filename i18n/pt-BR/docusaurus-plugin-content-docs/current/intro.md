@@ -31,7 +31,7 @@ _A tela Posição na versão atual. Confira o movimento da voz nos painéis de p
 <div className="home-feature-grid">
   <div className="home-feature"><span className="home-feature__number">01</span><h3>Mova sua voz pelo espaço</h3><p>Com o movimento horizontal, a voz percorre um arco ao redor da cabeça de quem ouve.</p></div>
   <div className="home-feature"><span className="home-feature__number">02</span><h3>Escolha a fonte de rastreamento</h3><p>Conecte o VTube Studio, o nizima LIVE ou um emissor do protocolo VMC. Para começar, basta o movimento horizontal.</p></div>
-  <div className="home-feature"><span className="home-feature__number">03</span><h3>Collabs a distância</h3><p>Uma chamada estéreo um a um conecta você ao seu parceiro sem achatar o áudio espacial.</p></div>
+  <div className="home-feature"><span className="home-feature__number">03</span><h3>Collabs a distância</h3><p>Envie áudio espacial em estéreo a parceiros distantes. Os modos disponíveis dependem da versão.</p></div>
 </div>
 
 ## O aplicativo em resumo
@@ -41,10 +41,10 @@ Troque de tela pelas abas à esquerda. No topo ficam os controles que você usa 
 | Aba | Para que serve |
 | --- | --- |
 | **Posição** | Painéis de posição da voz, modo de controle (automático / manual), conexão do rastreamento, calibração, alcance do deslocamento |
-| **Som** | HRTF, ambiência da sala, volume de saída, ligar ou desligar a espacialização |
+| **Som** | HRTF, acústica, cobertura dos ouvidos, limitador, volume de saída e espacialização |
 | **Dispositivos** | Rota de áudio (normal / DAW), microfone e saída, redução de ruído, modo anticortes, como levar isso para a sua live |
-| **Collab** | Chamadas um a um com um parceiro remoto |
-| **Áudios** | Carregar e tocar até quatro arquivos de áudio |
+| **Collab** | Chamadas estéreo para collab (requisitos conforme modo e versão) |
+| **Áudios** | Fontes 1–4: reprodução, pausa, predefinições, conjuntos, posição e volume |
 | **Atalhos de teclado** | Atribuir teclas às ações do aplicativo |
 | **Ajuda** | O tutorial e instruções por tarefa |
 | **Sobre** | Versão e exportação do ZIP de diagnóstico |
@@ -62,5 +62,7 @@ Troque de tela pelas abas à esquerda. No topo ficam os controles que você usa 
 - [Resolva um problema](troubleshooting/common-issues) — cortes, sem som ou a voz não se move
 
 :::info
+Este guia reflete o código atual. Os novos modos de chamada estão em desenvolvimento e podem não estar em versões públicas.
+
 O aplicativo VOrbit ASMR é distribuído separadamente desta documentação. Este guia é público para que você possa conferir a configuração e os requisitos antes de comprar ou instalar.
 :::

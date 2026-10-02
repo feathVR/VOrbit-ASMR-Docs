@@ -18,7 +18,7 @@ sidebar_position: 99
 
 ## 在哪裡可以找到 Stream Deck 外掛？
 
-Stream Deck 外掛預計作為獨立於應用程式本體和本指南的公開專案提供。公開後會在本頁加入連結。
+Stream Deck 外掛隨應用程式提供。安裝後將操作放到按鍵上。參閱 [Stream Deck 與外部控制](features/other#stream-deck)。
 
 ## 如何回報問題？
 

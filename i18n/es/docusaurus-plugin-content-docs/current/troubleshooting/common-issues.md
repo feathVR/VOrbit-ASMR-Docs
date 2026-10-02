@@ -47,7 +47,9 @@ Activa **Reenviar los datos recibidos al puerto** en **Detalles de conexión**. 
 
 ## La colab no se conecta
 
-Comprueba que ambos hayan pulsado Iniciar y empieza de nuevo con un código de invitación nuevo. Prueba también otra conexión fija o con IPv6. Consulta [Llamadas de colab](../collab/call#cannot-connect).
+Para baja latencia revisa Steam, propiedad, componentes, invitación y plazas. Si la llamada estable indica servidor sin configurar, necesitas una distribución compatible. Verifica el modo del código y cancela o desconecta antes de reintentar. Solo para llamadas directas anteriores, prueba una conexión fija o IPv6 si falla.
+
+[Llamadas de colab](../collab/call#call-modes)
 
 ## Audio duplicado o con eco
 
@@ -57,3 +59,15 @@ Comprueba que ambos hayan pulsado Iniciar y empieza de nuevo con un código de i
 ## Si el problema continúa
 
 Usa **Exportar ZIP de diagnóstico** en la pestaña Acerca de, revisa su contenido y adjúntalo a tu reporte de error. El ZIP no contiene audio, códigos de invitación ni credenciales.
+
+## Sonido amortiguado o rumor grave
+
+Revisa **Tapar oídos** en Sonido y vuelve ambos deslizadores a 0%. Suelta los atajos o botones de Stream Deck para tapar mientras se mantienen pulsados. Si solo se reducen los picos fuertes, revisa el indicador de **Limitador de seguridad**.
+
+## No se encuentra la aplicación de seguimiento
+
+Ejecuta VTube Studio para PC en el mismo equipo, activa su API y permite el plugin (localhost:8001 por defecto). La aplicación de iPhone sola no basta. Ejecuta nizima LIVE en el mismo PC y activa VOrbit ASMR en su gestor de plugins (localhost:22022). Reintenta cada 3 segundos durante la conexión. Si cierras estando conectado, vuelve a conectar automáticamente al iniciar.
+
+## No se puede cargar un conjunto
+
+Detén todas las fuentes y espera a que termine la carga. Comprueba si se movieron o borraron los archivos de audio del conjunto.

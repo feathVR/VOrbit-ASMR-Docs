@@ -37,7 +37,9 @@ Untick **Orbit around the head (recommended)** to map horizontal and vertical va
 
 The two pads on the Position tab show horizontal and vertical position (left) and horizontal position and depth (right). The red dot is your voice (blue while tracking), and numbered circles are mono audio files loaded on the **Audio files** tab.
 
-With **View range** set to **Auto**, the pad scale follows how far the voice can actually travel with your current axes and settings. Set it to **Manual** to choose the distance from the centre to the edge yourself.
+With **View range** set to **Auto**, tracking uses the voice's reachable range for the assigned axes and settings. In manual voice mode, the range fits the farthest placed voice or source with 5% padding (minimum 0.2 m). The frontal view scales from horizontal/vertical coordinates; the top-down view scales from horizontal/depth coordinates independently. Changing depth alone does not rescale the frontal view. **Manual** sets the distance from centre to edge.
+
+The voice is pushed outside the head and ears if tracking, dragging or external control would place it inside. Sources 1–4 do not have this restriction. Near-field correction applies when the voice approaches an ear.
 
 ## Show a dummy head mic on stream {#dummy-head-overlay}
 

@@ -31,7 +31,7 @@ _The current Position page. Check voice movement on the position pads and connec
 <div className="home-feature-grid">
   <div className="home-feature"><span className="home-feature__number">01</span><h3>Move a voice through space</h3><p>Horizontal movement carries the voice along an arc around the listener's head.</p></div>
   <div className="home-feature"><span className="home-feature__number">02</span><h3>Choose a tracking source</h3><p>Connect VTube Studio, nizima LIVE, or a VMC Protocol sender. Start by checking horizontal movement alone.</p></div>
-  <div className="home-feature"><span className="home-feature__number">03</span><h3>Collaborate remotely</h3><p>A one-to-one stereo call connects you with a partner without flattening the spatial audio.</p></div>
+  <div className="home-feature"><span className="home-feature__number">03</span><h3>Collaborate remotely</h3><p>Send spatial audio to remote partners in stereo. Available call modes depend on the edition.</p></div>
 </div>
 
 ## The app at a glance
@@ -41,10 +41,10 @@ Use the tabs on the left to switch pages. The bar at the top holds controls you 
 | Tab | What it is for |
 | --- | --- |
 | **Position** | Voice position pads, control mode (Auto / Manual), tracking connection, calibration, movement range |
-| **Sound** | HRTF, room ambience, output volume, spatialization on or off |
+| **Sound** | HRTF, room acoustics, ear cover, safety limiter, output volume and spatialization |
 | **Devices** | Audio route (Normal / DAW), microphone and output, noise reduction, dropout protection, getting audio into your stream |
-| **Collab** | One-to-one calls with a remote partner |
-| **Audio files** | Load and play up to four audio files |
+| **Collab** | Stereo Collab calls (requirements depend on mode and edition) |
+| **Audio files** | Sources 1–4: playback, pause, presets, source sets, position and volume |
 | **Hotkeys** | Keyboard shortcuts for app actions |
 | **Help** | The tutorial and task-based instructions |
 | **About** | Version and diagnostic ZIP export |
@@ -62,5 +62,7 @@ Use the tabs on the left to switch pages. The bar at the top holds controls you 
 - [Solve a problem](troubleshooting/common-issues) — dropouts, no sound, or no movement
 
 :::info
+This guide reflects the current source. The new call modes are in development and may not be included in public builds.
+
 The VOrbit ASMR application is distributed separately from this documentation. This guide is public so that you can review the setup and requirements before purchase or installation.
 :::

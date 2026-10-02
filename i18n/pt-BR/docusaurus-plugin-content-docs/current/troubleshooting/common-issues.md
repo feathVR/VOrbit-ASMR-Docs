@@ -47,7 +47,9 @@ Ative **Encaminhar os dados recebidos para a porta** em **Detalhes da conexão**
 
 ## A collab não conecta
 
-Confira se os dois pressionaram Iniciar e recomece com um código de convite novo. Experimente também outra conexão fixa ou com IPv6. Veja [Chamadas de collab](../collab/call#cannot-connect).
+Na baixa latência, confira Steam, propriedade, componentes, convite e vagas. Se a chamada estável informar servidor não configurado, é necessária uma distribuição compatível. Confira o modo do código e cancele ou desconecte antes de tentar novamente. Só nas chamadas diretas antigas, tente conexão fixa ou IPv6 se falhar.
+
+[Chamadas de collab](../collab/call#call-modes)
 
 ## Áudio duplicado ou com eco
 
@@ -57,3 +59,15 @@ Confira se os dois pressionaram Iniciar e recomece com um código de convite nov
 ## Se o problema continuar
 
 Use **Exportar ZIP de diagnóstico** na aba Sobre, confira o conteúdo e anexe ao seu relato de bug. O ZIP não contém áudio, códigos de convite nem credenciais.
+
+## Som abafado ou ruído grave
+
+Confira **Tampar ouvidos** na página de som e volte os dois controles a 0%. Solte as teclas de cobrir enquanto segura. Se só os picos fortes diminuírem, confira o indicador de **Limitador de segurança**.
+
+## Aplicativo de rastreamento não encontrado
+
+Execute o VTube Studio para PC no mesmo computador e permita API e plugin (padrão localhost:8001). Só o aplicativo do iPhone não basta. Execute nizima LIVE no mesmo PC e habilite VOrbit ASMR no gerenciador de plugins (localhost:22022). Durante a conexão, tenta novamente a cada 3 segundos. Fechar conectado faz reconectar automaticamente no próximo início.
+
+## Não é possível carregar um conjunto
+
+Pare todas as fontes e aguarde o carregamento terminar. Confira se os áudios referenciados foram movidos ou apagados.

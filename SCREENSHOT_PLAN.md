@@ -8,12 +8,18 @@ From the application repository (`VOrbit-ASMR`), build and run the documentation
 
 ```sh
 dotnet build tools/ControlSmoke/ControlSmoke.csproj -c Debug
-tools/ControlSmoke/bin/Debug/net10.0-windows/win-x64/VOrbitControlSmoke.exe <output-dir> --docs ja en
+tools/ControlSmoke/bin/Debug/net10.0-windows/win-x64/VOrbitControlSmoke.exe <output-dir> --docs
 ```
 
 The harness writes `<name>-<language>.png`. Copy `*-ja.png` to `static/img/screenshots/ja/` and `*-en.png` to `static/img/screenshots/en/`. `home-<language>.png` goes to `static/img/home-app-<language>.png` instead. Other language codes (`zh-Hans`, `zh-Hant`, `ko`, `ru`, `es`, `pt-BR`) render the same set in those languages.
 
-Full-window images use the minimum window size (1020×580) in the light theme. Card images are cropped from a taller render.
+Full-window images use the harness's 1020×580 reference viewport in the light theme. The current application's minimum window height is 620; the captures are viewport examples and some sections require scrolling. Card images are cropped from a taller render.
+
+The complete eight-language set was refreshed on 2026-10-02 (120 captures). If the app is running from its normal Debug output, use `dotnet build tools/ControlSmoke/ControlSmoke.csproj -c Debug --artifacts-path <separate-build-dir>` and run the harness from that directory, so the running app's files are not replaced. Omitting language arguments captures all eight languages. Keep each PNG in its matching locale; the home captures replace `home-app-<locale>.png`.
+
+The current Collab screenshot includes the new call-mode selector. The Help topic still describes the legacy invitation/response exchange, and the guide labels that screenshot accordingly. The new modes are documented as in development, not as verified public features.
+
+For this refresh, each locale was captured in its own fresh output directory. Set `VORBIT_BRIDGE_ENDPOINT` to an isolated development-only name (for example `VOrbitManualCapture20261002`) in the capture process when another instance of the app is running. This prevents bridge ownership errors and prevents a previous locale's bridge status from appearing in the next locale's screenshots. Do not change the running user's app or its settings.
 
 ## Inventory
 

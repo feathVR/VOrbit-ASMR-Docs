@@ -37,7 +37,9 @@ Desmarque **Órbita ao redor da cabeça (recomendado)** para converter os valore
 
 Os dois painéis da aba Posição mostram a posição horizontal e vertical (esquerda) e a horizontal e a profundidade (direita). O ponto vermelho é sua voz (azul durante o rastreamento) e os círculos numerados são áudios mono carregados na aba **Áudios**.
 
-Com **Área de visualização** em **Auto**, a escala do painel acompanha até onde a voz realmente pode ir com seus eixos e configurações atuais. Em **Manual**, você escolhe a distância do centro até a borda.
+Com **Área de visualização** em **Auto**, o rastreamento usa o alcance real da voz conforme eixos e ajustes. No modo manual, enquadra o ponto de voz ou fonte mais distante com 5% de margem (mínimo 0.2 m). A vista frontal usa horizontal/vertical; a superior usa horizontal/profundidade, independentemente. Mudar só a profundidade não redimensiona a frontal. **Manual** fixa a distância do centro à borda.
+
+Se o rastreamento, arraste ou controle externo colocar a voz dentro da cabeça ou orelhas, ela é empurrada para fora. Fontes 1–4 não têm essa restrição. A correção de campo próximo é aplicada quando a voz se aproxima da orelha.
 
 ## Mostrar a cabeça artificial na live {#dummy-head-overlay}
 

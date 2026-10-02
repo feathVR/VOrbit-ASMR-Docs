@@ -18,7 +18,7 @@ An axis set to `—` is treated as centered. Old calibration values do not affec
 
 ## Where can I find the Stream Deck plugin?
 
-The Stream Deck plugin is planned as a separate public project from the application and this guide. This page will link to it after publication.
+The Stream Deck plugin is bundled with the app. Install it and place actions on keys. See [Stream Deck and external control](features/other#stream-deck).
 
 ## How do I report a problem?
 

@@ -47,7 +47,9 @@ Enable **Forward received data to port** under **Connection details**. See [Trac
 
 ## Collab cannot connect
 
-Confirm both people pressed Start, then retry from the beginning with a fresh invite code. Also try another fixed-line or IPv6-capable connection. See [Collab calls](../collab/call#cannot-connect).
+For low latency, check Steam, ownership, integration components, invitation and available places. If stable calls report no configured server, you need a supported distribution. Check that the new mode matches the code; cancel or disconnect before retrying. For legacy direct calls only, try a fixed connection or IPv6 if direct connection fails.
+
+[Collab calls](../collab/call#call-modes)
 
 ## Doubled or echoing audio
 
@@ -57,3 +59,15 @@ Confirm both people pressed Start, then retry from the beginning with a fresh in
 ## If the problem remains
 
 Use **Export diagnostic ZIP** on the About tab, review the contents, and attach it to your bug report. The ZIP contains no audio, invite codes or credentials.
+
+## Muffled sound or a low rumble
+
+Check **Ear cover** on the sound page and return both sliders to 0%. Release any hold-to-cover hotkey or Stream Deck key. If only loud peaks become quieter, check the **Safety limiter** activity indicator.
+
+## Tracking app not found
+
+Run the PC version of VTube Studio on the same PC and enable its API and plugin permission (default localhost:8001). The iPhone app alone cannot connect. Run nizima LIVE on the same PC and enable VOrbit ASMR in its plugin manager (default localhost:22022). While connecting, the app retries every 3 seconds. Closing while connected enables automatic connection at the next startup.
+
+## A source set cannot be loaded
+
+Stop all playing sources and wait for loading to finish. Check whether audio files referenced by the set have been moved or deleted.

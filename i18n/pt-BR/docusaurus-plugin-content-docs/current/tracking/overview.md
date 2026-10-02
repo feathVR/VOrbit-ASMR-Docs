@@ -25,7 +25,7 @@ Na primeira conexão, só o eixo horizontal é atribuído; vertical e profundida
 
 ![Modo de controle e fonte de rastreamento](/img/screenshots/pt-BR/tracking-pt-BR.png)
 
-_Escolha a fonte em Automático (rastreamento) e pressione Conectar._
+_Tela atual do aplicativo. Os recursos dependem da distribuição._
 
 ## Permita a conexão no aplicativo
 

@@ -18,7 +18,7 @@ Um eixo em `—` é tratado como centralizado. Valores de calibração antigos n
 
 ## Onde encontro o plugin do Stream Deck?
 
-O plugin do Stream Deck será lançado como um projeto público separado do aplicativo e deste guia. Esta página terá o link depois do lançamento.
+O plugin Stream Deck vem com o aplicativo. Instale e coloque ações nas teclas. Veja [Stream Deck e controle externo](features/other#stream-deck).
 
 ## Como relato um problema?
 
