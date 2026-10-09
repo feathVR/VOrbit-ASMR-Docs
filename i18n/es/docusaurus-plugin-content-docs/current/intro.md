@@ -47,7 +47,7 @@ Cambia de pantalla con las pestañas de la izquierda. Arriba están los controle
 | **Audio** | Fuentes 1–4: reproducción, pausa, preajustes, conjuntos, posición y volumen |
 | **Atajos de teclado** | Asignar teclas a las acciones de la aplicación |
 | **Ayuda** | El tutorial e instrucciones por tarea |
-| **Acerca de** | Versión y exportación del ZIP de diagnóstico |
+| **Acerca de** | Versión, cambio del idioma de la interfaz y exportación del ZIP de diagnóstico |
 
 **Iniciar**, arriba, pone en marcha el procesamiento de audio y **Detener** lo para. **Silenciar** calla todo lo que va al stream y a la llamada. **Vista compacta** cambia a una ventana pequeña que no estorba durante el stream, y **Siempre en primer plano** mantiene la ventana delante de las demás.
 

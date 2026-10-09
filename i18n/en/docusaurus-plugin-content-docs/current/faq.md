@@ -8,6 +8,14 @@ sidebar_position: 99
 
 Yes. This public guide explains the required applications, connection methods, and setup flow so that you can review them before purchase.
 
+## How do I change the display language?
+
+On first launch the app follows your Windows display language. If that language is not supported, it uses English.
+
+To change it, open **About** at the bottom of the left navigation bar and choose from the **Language** drop-down. The change applies immediately and is remembered next time.
+
+The 8 available languages are 日本語 / English / 简体中文 / 繁體中文 / 한국어 / Русский / Español / Português (Brasil).
+
 ## Do I need to set up horizontal, vertical and depth from the beginning?
 
 No. Start with the horizontal axis and confirm left-to-right movement. Add vertical or depth when the tracking source provides a stable value you actually need.

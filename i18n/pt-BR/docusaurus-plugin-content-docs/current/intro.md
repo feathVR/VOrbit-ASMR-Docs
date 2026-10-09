@@ -47,7 +47,7 @@ Troque de tela pelas abas à esquerda. No topo ficam os controles que você usa 
 | **Áudios** | Fontes 1–4: reprodução, pausa, predefinições, conjuntos, posição e volume |
 | **Atalhos de teclado** | Atribuir teclas às ações do aplicativo |
 | **Ajuda** | O tutorial e instruções por tarefa |
-| **Sobre** | Versão e exportação do ZIP de diagnóstico |
+| **Sobre** | Versão, troca do idioma da interface e exportação do ZIP de diagnóstico |
 
 **Iniciar**, no topo, começa o processamento de áudio e **Parar** o encerra. **Silenciar** cala tudo o que vai para a live e para a chamada. **Visualização compacta** muda para uma janela pequena que não atrapalha durante a live, e **Sempre no topo** mantém a janela na frente das outras.
 

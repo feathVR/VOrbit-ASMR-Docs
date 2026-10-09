@@ -8,6 +8,14 @@ sidebar_position: 99
 
 Sí. Esta guía pública explica las aplicaciones necesarias, los métodos de conexión y los pasos de configuración para que puedas revisarlos antes de comprar.
 
+## ¿Cómo cambio el idioma de la interfaz?
+
+En el primer inicio, la aplicación usa el idioma de pantalla de Windows. Si ese idioma no es compatible, usa inglés.
+
+Para cambiarlo, abre **Acerca de**, al final de la barra de navegación izquierda, y elige una opción en la lista desplegable **Idioma**. El cambio se aplica al instante y se recuerda en el siguiente inicio.
+
+Los 8 idiomas disponibles son 日本語 / English / 简体中文 / 繁體中文 / 한국어 / Русский / Español / Português (Brasil).
+
 ## ¿Tengo que configurar horizontal, vertical y profundidad desde el principio?
 
 No. Empieza con el eje horizontal y confirma el movimiento de izquierda a derecha. Añade vertical o profundidad cuando la fuente de seguimiento dé un valor estable que realmente necesites.

@@ -47,7 +47,7 @@ Use the tabs on the left to switch pages. The bar at the top holds controls you 
 | **Audio files** | Sources 1–4: playback, pause, presets, source sets, position and volume |
 | **Hotkeys** | Keyboard shortcuts for app actions |
 | **Help** | The tutorial and task-based instructions |
-| **About** | Version and diagnostic ZIP export |
+| **About** | Version, display language, and diagnostic ZIP export |
 
 **Start** at the top begins audio processing and **Stop** ends it. **Mute** silences everything going to your stream and your call. **Compact view** switches to a small window that stays out of the way while streaming, and **Always on top** keeps the window in front of other windows.
 
